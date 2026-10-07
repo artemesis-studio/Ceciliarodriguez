@@ -1,0 +1,179 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false,
+      "slots": 7,
+      "empty": true,
+      "images": [
+        "Images/Header-new.jpg",
+        "Images/Sobre-mi-new.jpg"
+      ],
+      "clipped": [],
+      "cardHeights": [
+        973,
+        1191,
+        836
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "slots": 7,
+      "empty": true,
+      "images": [
+        "Images/Header-new.jpg",
+        "Images/Sobre-mi-new.jpg"
+      ],
+      "clipped": [],
+      "cardHeights": [
+        825,
+        962,
+        708
+      ]
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "slots": 7,
+      "empty": true,
+      "images": [
+        "Images/Header-new.jpg",
+        "Images/Sobre-mi-new.jpg"
+      ],
+      "clipped": [],
+      "cardHeights": [
+        679,
+        754,
+        562
+      ]
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "slots": 7,
+      "empty": true,
+      "images": [
+        "Images/Header-new.jpg",
+        "Images/Sobre-mi-new.jpg"
+      ],
+      "clipped": [],
+      "cardHeights": [
+        617,
+        692,
+        562
+      ]
+    },
+    {
+      "width": 800,
+      "overflow": false,
+      "slots": 7,
+      "empty": true,
+      "images": [
+        "Images/Header-new.jpg",
+        "Images/Sobre-mi-new.jpg"
+      ],
+      "clipped": [],
+      "cardHeights": [
+        617,
+        692,
+        562
+      ]
+    },
+    {
+      "width": 801,
+      "overflow": false,
+      "slots": 7,
+      "empty": true,
+      "images": [
+        "Images/Header-new.jpg",
+        "Images/Sobre-mi-new.jpg"
+      ],
+      "clipped": [],
+      "cardHeights": [
+        617,
+        692,
+        562
+      ]
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "slots": 7,
+      "empty": true,
+      "images": [
+        "Images/Header-new.jpg",
+        "Images/Sobre-mi-new.jpg"
+      ],
+      "clipped": [],
+      "cardHeights": [
+        1148,
+        1148,
+        1148
+      ]
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "slots": 7,
+      "empty": true,
+      "images": [
+        "Images/Header-new.jpg",
+        "Images/Sobre-mi-new.jpg"
+      ],
+      "clipped": [],
+      "cardHeights": [
+        1016,
+        1016,
+        1016
+      ]
+    },
+    {
+      "width": 1894,
+      "overflow": false,
+      "slots": 7,
+      "empty": true,
+      "images": [
+        "Images/Header-new.jpg",
+        "Images/Sobre-mi-new.jpg"
+      ],
+      "clipped": [],
+      "cardHeights": [
+        978,
+        978,
+        978
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "selector": ".nav",
+      "same": true
+    },
+    {
+      "selector": ".contact",
+      "same": true
+    },
+    {
+      "selector": ".footer",
+      "same": true
+    },
+    {
+      "selector": ".organizations",
+      "same": true
+    }
+  ],
+  "zoom": {
+    "overflow": false
+  },
+  "focus": "Mis Servicios",
+  "nojs": {
+    "overflow": false,
+    "header": 212.25,
+    "nav": 212.25,
+    "disabled": true
+  },
+  "errors": [],
+  "requests": [],
+  "failures": []
+}

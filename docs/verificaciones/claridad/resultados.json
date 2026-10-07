@@ -1,0 +1,207 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false,
+      "offer": "Cursos, mentorías y capacitación en oratoria",
+      "labels": [
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ]
+      ],
+      "facts": [
+        1832.140625,
+        2864.375,
+        4032.125
+      ],
+      "font": "400",
+      "align": "justify",
+      "last": "left",
+      "button": "Preparar consulta",
+      "description": "contact-step-note"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "offer": "Cursos, mentorías y capacitación en oratoria",
+      "labels": [
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ]
+      ],
+      "facts": [
+        1712.625,
+        2624.859375,
+        3553.09375
+      ],
+      "font": "400",
+      "align": "justify",
+      "last": "left",
+      "button": "Preparar consulta",
+      "description": "contact-step-note"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "offer": "Cursos, mentorías y capacitación en oratoria",
+      "labels": [
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ]
+      ],
+      "facts": [
+        1608.25,
+        2353.4375,
+        3090.625
+      ],
+      "font": "400",
+      "align": "justify",
+      "last": "left",
+      "button": "Preparar consulta",
+      "description": "contact-step-note"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "offer": "Cursos, mentorías y capacitación en oratoria",
+      "labels": [
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ]
+      ],
+      "facts": [
+        1898.71875,
+        1898.71875,
+        1898.71875
+      ],
+      "font": "400",
+      "align": "justify",
+      "last": "left",
+      "button": "Preparar consulta",
+      "description": "contact-step-note"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "offer": "Cursos, mentorías y capacitación en oratoria",
+      "labels": [
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ]
+      ],
+      "facts": [
+        1840.171875,
+        1840.171875,
+        1840.171875
+      ],
+      "font": "400",
+      "align": "justify",
+      "last": "left",
+      "button": "Preparar consulta",
+      "description": "contact-step-note"
+    },
+    {
+      "width": 1894,
+      "overflow": false,
+      "offer": "Cursos, mentorías y capacitación en oratoria",
+      "labels": [
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ],
+        [
+          "Para quién es",
+          "Qué vas a trabajar",
+          "Cómo funciona"
+        ]
+      ],
+      "facts": [
+        1831.484375,
+        1831.484375,
+        1831.484375
+      ],
+      "font": "400",
+      "align": "justify",
+      "last": "left",
+      "button": "Preparar consulta",
+      "description": "contact-step-note"
+    }
+  ],
+  "zoomOverflow": false,
+  "nojs": {
+    "headings": 9,
+    "disabled": true,
+    "overflow": false,
+    "direct": true
+  },
+  "automaticWindows": 0,
+  "errors": [],
+  "remote": [],
+  "failures": []
+}

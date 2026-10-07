@@ -1,0 +1,125 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false,
+      "nav": 156.75,
+      "offset": 157,
+      "inputFont": "16px",
+      "bodyFont": "16px",
+      "fonts": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "nav": 84.25,
+      "offset": 85,
+      "inputFont": "16px",
+      "bodyFont": "16px",
+      "fonts": true
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "nav": 84.25,
+      "offset": 85,
+      "inputFont": "16px",
+      "bodyFont": "16px",
+      "fonts": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "nav": 87.59375,
+      "offset": 88,
+      "inputFont": "16px",
+      "bodyFont": "16px",
+      "fonts": true
+    },
+    {
+      "width": 800,
+      "overflow": false,
+      "nav": 87.59375,
+      "offset": 88,
+      "inputFont": "16px",
+      "bodyFont": "16px",
+      "fonts": true
+    },
+    {
+      "width": 801,
+      "overflow": false,
+      "nav": 95.59375,
+      "offset": 96,
+      "inputFont": "16px",
+      "bodyFont": "16px",
+      "fonts": true
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "nav": 95.59375,
+      "offset": 96,
+      "inputFont": "16px",
+      "bodyFont": "16px",
+      "fonts": true
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "nav": 97.25,
+      "offset": 98,
+      "inputFont": "16px",
+      "bodyFont": "16px",
+      "fonts": true
+    }
+  ],
+  "focus": {
+    "text": "Mis Servicios",
+    "top": 159.78125,
+    "nav": 84.25
+  },
+  "rejected": {
+    "draft": false,
+    "name": "true",
+    "error": "name-error",
+    "message": false
+  },
+  "zoom": {
+    "overflow": false,
+    "nav": 141.1875,
+    "offset": 142
+  },
+  "nojs": [
+    {
+      "width": 320,
+      "nav": 284.75,
+      "header": 284.75,
+      "overflow": false,
+      "disabled": true
+    },
+    {
+      "width": 390,
+      "nav": 212.25,
+      "header": 212.25,
+      "overflow": false,
+      "disabled": true
+    },
+    {
+      "width": 768,
+      "nav": 159.59375,
+      "header": 159.59375,
+      "overflow": false,
+      "disabled": true
+    },
+    {
+      "width": 1440,
+      "nav": 97.25,
+      "header": 97.25,
+      "overflow": false,
+      "disabled": true
+    }
+  ],
+  "network": [],
+  "errors": [],
+  "failures": []
+}

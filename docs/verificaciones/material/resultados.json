@@ -1,0 +1,90 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false,
+      "slots": true,
+      "cardRadius": "24px",
+      "buttonRadius": "999px",
+      "fieldRadius": "8px",
+      "center": "center",
+      "nav": 157.75,
+      "offset": 158
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "slots": true,
+      "cardRadius": "24px",
+      "buttonRadius": "999px",
+      "fieldRadius": "8px",
+      "center": "center",
+      "nav": 85.25,
+      "offset": 86
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "slots": true,
+      "cardRadius": "24px",
+      "buttonRadius": "999px",
+      "fieldRadius": "8px",
+      "center": "center",
+      "nav": 88.59375,
+      "offset": 89
+    },
+    {
+      "width": 801,
+      "overflow": false,
+      "slots": true,
+      "cardRadius": "24px",
+      "buttonRadius": "999px",
+      "fieldRadius": "8px",
+      "center": "center",
+      "nav": 96.59375,
+      "offset": 97
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "slots": true,
+      "cardRadius": "24px",
+      "buttonRadius": "999px",
+      "fieldRadius": "8px",
+      "center": "center",
+      "nav": 96.59375,
+      "offset": 97
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "slots": true,
+      "cardRadius": "24px",
+      "buttonRadius": "999px",
+      "fieldRadius": "8px",
+      "center": "center",
+      "nav": 98.25,
+      "offset": 99
+    },
+    {
+      "width": 1894,
+      "overflow": false,
+      "slots": true,
+      "cardRadius": "24px",
+      "buttonRadius": "999px",
+      "fieldRadius": "8px",
+      "center": "center",
+      "nav": 98.25,
+      "offset": 99
+    }
+  ],
+  "rose": "rgb(188, 66, 101)",
+  "zoomOverflow": false,
+  "nojs": {
+    "overflow": false,
+    "clear": true,
+    "disabled": true
+  },
+  "errors": [],
+  "failures": []
+}
