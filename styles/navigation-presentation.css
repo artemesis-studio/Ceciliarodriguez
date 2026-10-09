@@ -1,0 +1,124 @@
+/* Isolated navigation presentation and its document scroll offsets. */
+.nav.nav-presentation {
+  --nav-full-width: min(clamp(8rem, 12vw, 11rem), calc(100vw - 8rem));
+  --nav-padding: 0.75rem;
+  --nav-mark-size: 3.5rem;
+  display: grid;
+  grid-template-columns: var(--nav-full-width) minmax(0, 1fr);
+  min-height: 0;
+  padding-block: var(--nav-padding);
+  gap: 1.5rem;
+}
+
+/* A complete in-flow navigation remains usable if scripts are unavailable. */
+.nav.nav-presentation:not(.js-ready) { position: relative; top: auto; }
+
+.nav-presentation .brand.brand-logo {
+  width: var(--nav-full-width);
+  max-width: 100%;
+  aspect-ratio: 793 / 598;
+  margin: 0;
+  overflow: visible;
+}
+
+.nav-presentation .nav-brand-full {
+  position: relative;
+  display: block;
+  width: var(--nav-full-width);
+  aspect-ratio: 793 / 598;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 120ms ease;
+}
+
+.nav-presentation .nav-brand-full img {
+  width: 136.1917%;
+  left: -18.1589%;
+  top: -42.1405%;
+}
+
+.nav-presentation .nav-brand-mark {
+  position: absolute;
+  inset: 0 auto auto 0;
+  display: block;
+  width: var(--nav-mark-size);
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+/* Crop only the CR symbol from the original artwork; its bytes stay intact. */
+.nav-presentation .nav-brand-mark img {
+  width: 400%;
+  height: auto;
+  max-width: none;
+  left: -150%;
+  top: -96.2963%;
+}
+
+.nav-presentation .nav-links {
+  min-width: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-presentation.is-compact {
+  grid-template-columns: var(--nav-mark-size) minmax(0, 1fr);
+}
+
+.nav-presentation.is-compact .brand.brand-logo {
+  width: var(--nav-mark-size);
+  aspect-ratio: 1;
+}
+
+.nav-presentation.is-compact .nav-brand-full {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-presentation.is-compact .nav-brand-mark {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Reserve the expanded height independently of the live anchor/focus offset. */
+.has-nav-presentation body.has-fixed-nav {
+  padding-top: var(--nav-presentation-space, var(--nav-height));
+}
+
+html.has-nav-presentation {
+  scroll-padding-top: calc(var(--nav-visible-height) + 20px);
+}
+.has-nav-presentation :is(section[id], main, [tabindex="-1"]) {
+  scroll-margin-top: 0;
+}
+
+.nav-presentation-marker {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+@media (max-width: 800px) {
+  .nav.nav-presentation,
+  .nav.nav-presentation.is-compact {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.75rem;
+  }
+  .nav-presentation .nav-toggle { justify-self: end; }
+  .nav-presentation .nav-links {
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-presentation :is(.nav-brand-full, .nav-brand-mark) { transition: none; }
+}

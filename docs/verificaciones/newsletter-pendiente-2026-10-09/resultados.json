@@ -1,0 +1,73 @@
+{
+  "sizes": [
+    {
+      "width": 320,
+      "pageWidth": 320,
+      "newsletterWidth": 284,
+      "newsletterCenter": 160
+    },
+    {
+      "width": 390,
+      "pageWidth": 390,
+      "newsletterWidth": 351,
+      "newsletterCenter": 195
+    },
+    {
+      "width": 600,
+      "pageWidth": 600,
+      "newsletterWidth": 540,
+      "newsletterCenter": 300
+    },
+    {
+      "width": 768,
+      "pageWidth": 768,
+      "newsletterWidth": 691.1875,
+      "newsletterCenter": 384
+    },
+    {
+      "width": 801,
+      "pageWidth": 801,
+      "newsletterWidth": 720.890625,
+      "newsletterCenter": 400.4921875
+    },
+    {
+      "width": 1024,
+      "pageWidth": 1024,
+      "newsletterWidth": 768,
+      "newsletterCenter": 512
+    },
+    {
+      "width": 1440,
+      "pageWidth": 1440,
+      "newsletterWidth": 768,
+      "newsletterCenter": 720
+    }
+  ],
+  "errors": [],
+  "remoteRequests": [],
+  "pending": {
+    "inputDisabled": true,
+    "buttonDisabled": true,
+    "submitEvents": 0,
+    "emailValue": "",
+    "label": "Tu email",
+    "autocomplete": "email",
+    "note": "Próximamente vas a poder suscribirte desde acá. Por ahora, este formulario no recibe emails.",
+    "contactEnabled": true,
+    "duplicateIds": [],
+    "insideResources": true,
+    "beforeContact": true
+  },
+  "axe390": [],
+  "axe1440": [],
+  "zoom": {
+    "width": 720,
+    "pageWidth": 720
+  },
+  "noJS": {
+    "width": 390,
+    "pageWidth": 390,
+    "inputDisabled": true,
+    "buttonDisabled": true
+  }
+}

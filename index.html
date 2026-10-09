@@ -9,6 +9,7 @@
       content="Cecilia Rodríguez. Oratoria y comunicación humana: conferencias, cursos grupales, mentorías 1 a 1 y capacitación para empresas."
     />
     <title>Cecilia Rodríguez · Oratoria y comunicación humana</title>
+    <link rel="preload" as="image" href="Images/header-iamgen.jpg" fetchpriority="high" />
     <link
       rel="preload"
       href="assets/fonts/montserrat-latin.woff2"
@@ -20,14 +21,21 @@
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/redesign.css" />
     <link rel="stylesheet" href="styles/corrections.css" />
-    <script defer src="scripts/components/gallery.js"></script>
-    <script type="module" src="scripts/main.js"></script>
+    <link rel="stylesheet" href="styles/navigation-presentation.css" />
+    <link rel="preload" as="script" href="scripts/components/navigation.js?v=presentation-2" />
+    <link rel="preload" as="script" href="scripts/components/gallery.js" />
+    <script type="module" src="scripts/main.js?v=presentation-1"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Saltar al contenido</a>
-    <nav class="nav" aria-label="Navegación principal">
-      <a class="brand brand-logo" href="#inicio">
-        <img src="Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png" width="1080" height="1080" alt="Cecilia Rodríguez · Oratoria y comunicación humana" />
+    <nav class="nav nav-presentation" aria-label="Navegación principal">
+      <a class="brand brand-logo" href="#inicio" aria-label="Cecilia Rodríguez · Volver al inicio">
+        <span class="nav-brand-full" aria-hidden="true">
+          <img src="Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png" width="1080" height="1080" alt="" />
+        </span>
+        <span class="nav-brand-mark" aria-hidden="true">
+          <img src="Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png" width="1080" height="1080" alt="" />
+        </span>
       </a>
       <button
         class="nav-toggle"
@@ -44,6 +52,8 @@
         ><a class="button" href="#contacto">Quiero empezar</a>
       </div>
     </nav>
+    <!-- Initialize before following content can paint with the fallback layout. -->
+    <script src="scripts/components/navigation.js?v=presentation-2"></script>
     <header class="header" id="inicio">
       <div class="hero-copy">
         <p class="hero-offer">Conferencias · Cursos grupales · Mentorías 1 a 1 · Capacitación para empresas</p>
@@ -744,6 +754,7 @@
           </div>
         </div>
       </section>
+      <script src="scripts/components/gallery.js"></script>
       <section class="resources section" id="recursos">
         <div class="container">
           <div class="section-heading">
@@ -795,7 +806,19 @@
                 maxlength="120"
               /><span class="field-error" id="name-error"
                 >Completá tu nombre; no puede contener solo espacios.</span
-              ><label for="email">¿A qué mail puedo enviarte info?</label
+              ><label for="interest">¿Sobre qué te gustaría conversar?</label
+              ><div class="interest-control">
+                <select id="interest" name="interest" autocomplete="off">
+                  <option value="">Elegí una opción</option>
+                  <option value="Conferencias">Consultar por una conferencia</option>
+                  <option value="Curso de Oratoria Grupal">Consultar por un curso</option>
+                  <option value="Mentorías 1:1">Consultar por un entrenamiento individual</option>
+                  <option value="Capacitación para Empresas">Solicitar una propuesta de trabajo</option>
+                  <option value="Recursos gratis: PDF y audios con ejercicios">Consultar por recursos gratis</option>
+                </select>
+                <button class="interest-clear" type="button" aria-label="Quitar la opción elegida" hidden>Quitar</button>
+              </div>
+              <label for="email">¿A qué mail puedo enviarte info?</label
               ><input
                 id="email"
                 name="email"
@@ -954,6 +977,33 @@
               >
             </div>
           </div>
+          <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+            <p class="eyebrow">NEWSLETTER</p>
+            <h3 id="newsletter-title">Ideas para entrenar tu voz</h3>
+            <p class="newsletter-description">Ejercicios, ideas y novedades de oratoria y comunicación para acompañar tu práctica.</p>
+            <!-- Activar solo después de aprobar MailerLite y configurar un formulario real. Ver AGENTS.md. -->
+            <form class="newsletter-form" id="newsletter-form" aria-labelledby="newsletter-title" aria-describedby="newsletter-note">
+              <label for="newsletter-email">Tu email</label>
+              <div class="newsletter-controls">
+                <input
+                  id="newsletter-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  inputmode="email"
+                  autocapitalize="off"
+                  spellcheck="false"
+                  placeholder="tu@email.com"
+                  maxlength="254"
+                  aria-describedby="newsletter-note"
+                  required
+                  disabled
+                />
+                <button class="button button-blue" type="submit" disabled>Quiero recibirlos</button>
+              </div>
+              <p class="newsletter-note" id="newsletter-note">Por ahora, las suscripciones por email no están habilitadas.</p>
+            </form>
+          </section>
         </div>
       </section>
     </main>

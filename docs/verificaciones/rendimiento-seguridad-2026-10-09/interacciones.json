@@ -1,0 +1,632 @@
+[
+  {
+    "repeat": 1,
+    "escape": "false",
+    "heading": {
+      "text": "Las clases En acción",
+      "top": 100.796875,
+      "navBottom": 81
+    },
+    "rejected": true,
+    "events": [
+      {
+        "name": "pointerdown",
+        "duration": 48,
+        "id": 2146
+      },
+      {
+        "name": "pointerup",
+        "duration": 48,
+        "id": 2146
+      },
+      {
+        "name": "click",
+        "duration": 48,
+        "id": 2146
+      },
+      {
+        "name": "keydown",
+        "duration": 16,
+        "id": 2153
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 2160
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 2160
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 2160
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 2167
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 2167
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 2167
+      },
+      {
+        "name": "pointerdown",
+        "duration": 32,
+        "id": 2174
+      },
+      {
+        "name": "pointerup",
+        "duration": 32,
+        "id": 2174
+      },
+      {
+        "name": "click",
+        "duration": 32,
+        "id": 2174
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 2181
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 2181
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 2181
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 2188
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 2188
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 2188
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 2195
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 2195
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 2195
+      }
+    ]
+  },
+  {
+    "repeat": 2,
+    "escape": "false",
+    "heading": {
+      "text": "Las clases En acción",
+      "top": 100.796875,
+      "navBottom": 81
+    },
+    "rejected": true,
+    "events": [
+      {
+        "name": "pointerdown",
+        "duration": 56,
+        "id": 2077
+      },
+      {
+        "name": "pointerup",
+        "duration": 56,
+        "id": 2077
+      },
+      {
+        "name": "click",
+        "duration": 56,
+        "id": 2077
+      },
+      {
+        "name": "keydown",
+        "duration": 40,
+        "id": 2084
+      },
+      {
+        "name": "keyup",
+        "duration": 40,
+        "id": 2084
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 2091
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 2091
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 2091
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 2098
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 2098
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 2098
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 2105
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 2105
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 2105
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 2112
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 2112
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 2112
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 2119
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 2119
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 2119
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 2126
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 2126
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 2126
+      }
+    ]
+  },
+  {
+    "repeat": 3,
+    "escape": "false",
+    "heading": {
+      "text": "Las clases En acción",
+      "top": 100.796875,
+      "navBottom": 81
+    },
+    "rejected": true,
+    "events": [
+      {
+        "name": "pointerdown",
+        "duration": 56,
+        "id": 1522
+      },
+      {
+        "name": "pointerup",
+        "duration": 56,
+        "id": 1522
+      },
+      {
+        "name": "click",
+        "duration": 56,
+        "id": 1522
+      },
+      {
+        "name": "keydown",
+        "duration": 40,
+        "id": 1529
+      },
+      {
+        "name": "keyup",
+        "duration": 40,
+        "id": 1529
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 1536
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 1536
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 1536
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 1543
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 1543
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 1543
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 1550
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 1550
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 1550
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 1557
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 1557
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 1557
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 1564
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 1564
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 1564
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 1571
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 1571
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 1571
+      }
+    ]
+  },
+  {
+    "repeat": 4,
+    "escape": "false",
+    "heading": {
+      "text": "Las clases En acción",
+      "top": 100.796875,
+      "navBottom": 81
+    },
+    "rejected": true,
+    "events": [
+      {
+        "name": "pointerdown",
+        "duration": 56,
+        "id": 5785
+      },
+      {
+        "name": "pointerup",
+        "duration": 56,
+        "id": 5785
+      },
+      {
+        "name": "click",
+        "duration": 56,
+        "id": 5785
+      },
+      {
+        "name": "keydown",
+        "duration": 40,
+        "id": 5792
+      },
+      {
+        "name": "keyup",
+        "duration": 40,
+        "id": 5792
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 5799
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 5799
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 5799
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 5806
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 5806
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 5806
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 5813
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 5813
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 5813
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 5820
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 5820
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 5820
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 5827
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 5827
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 5827
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 5834
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 5834
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 5834
+      }
+    ]
+  },
+  {
+    "repeat": 5,
+    "escape": "false",
+    "heading": {
+      "text": "Las clases En acción",
+      "top": 100.796875,
+      "navBottom": 81
+    },
+    "rejected": true,
+    "events": [
+      {
+        "name": "pointerdown",
+        "duration": 56,
+        "id": 5425
+      },
+      {
+        "name": "pointerup",
+        "duration": 56,
+        "id": 5425
+      },
+      {
+        "name": "click",
+        "duration": 56,
+        "id": 5425
+      },
+      {
+        "name": "keydown",
+        "duration": 40,
+        "id": 5432
+      },
+      {
+        "name": "keyup",
+        "duration": 40,
+        "id": 5432
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 5439
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 5439
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 5439
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 5446
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 5446
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 5446
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 5453
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 5453
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 5453
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 5460
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 5460
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 5460
+      },
+      {
+        "name": "pointerdown",
+        "duration": 24,
+        "id": 5467
+      },
+      {
+        "name": "pointerup",
+        "duration": 24,
+        "id": 5467
+      },
+      {
+        "name": "click",
+        "duration": 24,
+        "id": 5467
+      },
+      {
+        "name": "pointerdown",
+        "duration": 16,
+        "id": 5474
+      },
+      {
+        "name": "pointerup",
+        "duration": 16,
+        "id": 5474
+      },
+      {
+        "name": "click",
+        "duration": 16,
+        "id": 5474
+      }
+    ]
+  }
+]

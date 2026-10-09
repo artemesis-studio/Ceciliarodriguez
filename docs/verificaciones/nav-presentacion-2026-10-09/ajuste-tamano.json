@@ -1,0 +1,42 @@
+{
+  "expanded": [
+    {
+      "compact": false,
+      "logoWidth": 128,
+      "navHeight": 121.5234375,
+      "overflow": 320,
+      "space": "122px",
+      "width": 320
+    },
+    {
+      "compact": false,
+      "logoWidth": 128,
+      "navHeight": 121.5234375,
+      "overflow": 390,
+      "space": "122px",
+      "width": 390
+    },
+    {
+      "compact": false,
+      "logoWidth": 128,
+      "navHeight": 121.5234375,
+      "overflow": 1024,
+      "space": "122px",
+      "width": 1024
+    },
+    {
+      "compact": false,
+      "logoWidth": 172.796875,
+      "navHeight": 155.3046875,
+      "overflow": 1440,
+      "space": "156px",
+      "width": 1440
+    }
+  ],
+  "compact": {
+    "compact": true,
+    "logoWidth": 56,
+    "navHeight": 81,
+    "space": "156px"
+  }
+}

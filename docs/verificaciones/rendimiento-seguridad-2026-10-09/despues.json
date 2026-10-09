@@ -1,0 +1,2272 @@
+{
+  "date": "2026-10-09",
+  "browser": "154.0.8037.98",
+  "url": "http://127.0.0.1:4173/",
+  "runs": [
+    {
+      "profile": "desktop",
+      "repeat": 1,
+      "cache": "cold",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 64,
+      "cls": 0.000642091049382716,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 64,
+      "ttfb": 1.1000000014901161,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 4.700000002980232
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 5.899999998509884
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 3.2999999970197678
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 4
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 4.299999997019768
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 6.099999997764826
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 5.600000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 5.800000000745058
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 6.100000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 6.300000000745058
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 6.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 1.1000000014901161
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 10.600000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1.2000000029802322
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1.2000000029802322
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 7.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/favicon.ico",
+          "bytes": 635,
+          "duration": 0.8999999985098839
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "desktop",
+      "repeat": 1,
+      "cache": "warm",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 52,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 52,
+      "ttfb": 1.1000000014901161,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 300,
+          "duration": 1.2000000029802322
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "desktop",
+      "repeat": 2,
+      "cache": "cold",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 44,
+      "cls": 0.000642091049382716,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 44,
+      "ttfb": 0.8000000007450581,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 4.299999997019768
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 3.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 5.699999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 3.599999997764826
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 3.899999998509884
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 4.699999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 4.700000002980232
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 5
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 5
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 5.900000002235174
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 5.700000002980232
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 10.300000000745058
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 6.699999999254942
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "desktop",
+      "repeat": 2,
+      "cache": "warm",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 44,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 44,
+      "ttfb": 1.1000000014901161,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 300,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "desktop",
+      "repeat": 3,
+      "cache": "cold",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 40,
+      "cls": 0.000642091049382716,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 40,
+      "ttfb": 0.8999999985098839,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 4.600000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 3
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 3.100000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 3.900000002235174
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 4.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 4.700000002980232
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 6.100000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 5
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 5.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 6
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 6
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 10
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1.1000000014901161
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 6.599999997764826
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "desktop",
+      "repeat": 3,
+      "cache": "warm",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 44,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 44,
+      "ttfb": 1,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 300,
+          "duration": 1.1000000014901161
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "desktop",
+      "repeat": 4,
+      "cache": "cold",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 40,
+      "cls": 0.000642091049382716,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 40,
+      "ttfb": 0.8000000007450581,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 3.699999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 5.100000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 4.899999998509884
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 3.2999999970197678
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 4.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 3.599999997764826
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 4
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 4.900000002235174
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 5.900000002235174
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 5.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 5.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 1
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 1.1000000014901161
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 11.200000002980232
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1.2999999970197678
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 6.300000000745058
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "desktop",
+      "repeat": 4,
+      "cache": "warm",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 44,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 44,
+      "ttfb": 1,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 300,
+          "duration": 1.1000000014901161
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "desktop",
+      "repeat": 5,
+      "cache": "cold",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 40,
+      "cls": 0.000642091049382716,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 40,
+      "ttfb": 0.9000000022351742,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 4.099999997764826
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 3.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 3.600000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 4.600000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 5.300000000745058
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 4
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 4.700000002980232
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 5.700000002980232
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 6
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 5.600000001490116
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 5.900000002235174
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 1.0999999977648258
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 10.400000002235174
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 6.899999998509884
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "desktop",
+      "repeat": 5,
+      "cache": "warm",
+      "settings": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "latency": 0,
+        "rate": -1,
+        "cpu": 1
+      },
+      "lcp": 40,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 40,
+      "ttfb": 1,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 300,
+          "duration": 1
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 1,
+      "cache": "cold",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 2536,
+      "cls": 0.0008880264891560826,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 1212,
+      "ttfb": 1,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 2204.800000000745
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 1161.6000000014901
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 367.19999999925494
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 757.3999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 763.7999999970198
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 666.6000000014901
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 710.6000000014901
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 1062.6000000014901
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 1070.5999999977648
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 1094.3999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 1558.3999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 739.6000000014901
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1537.699999999255
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1656.6000000014901
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 1288.800000000745
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 857.6999999992549
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 1052.800000000745
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 1,
+      "cache": "warm",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 384,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 336,
+      "ttfb": 0.5,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 300,
+          "duration": 311.30000000074506
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 2,
+      "cache": "cold",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 2504,
+      "cls": 0.0008880264891560826,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 1220,
+      "ttfb": 0.9000000022351742,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 2171.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 354.80000000074506
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 708.6000000014901
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 753.4000000022352
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 768.7000000029802
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 1158.1000000014901
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 671
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 1067.7000000029802
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 1074.800000000745
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 1089.9000000022352
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 1545.800000000745
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 747.3000000007451
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1522.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1641
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 1272.800000000745
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 840.1000000014901
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 1065.300000000745
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 2,
+      "cache": "warm",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 388,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 336,
+      "ttfb": 0.29999999701976776,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 300,
+          "duration": 313
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 3,
+      "cache": "cold",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 2368,
+      "cls": 0.0008880264891560826,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 1200,
+      "ttfb": 0.9000000022351742,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 2035.4000000022352
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 355.69999999925494
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 752.8000000007451
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 1158.800000000745
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 707.8999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 746.0999999977648
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 670.8000000007451
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 1067.3999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 1075.699999999255
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 1082.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 1530.3999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 328
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 379.8999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 610.6999999992549
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1412.199999999255
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1628.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 1312.8999999985099
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 3,
+      "cache": "warm",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 384,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 336,
+      "ttfb": 0.4000000022351742,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 300,
+          "duration": 309.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 4,
+      "cache": "cold",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 2540,
+      "cls": 0.0008880264891560826,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 1196,
+      "ttfb": 1,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 2203.599999997765
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 352.30000000074506
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 681.4000000022352
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 742.3000000007451
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 749.3000000007451
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 1146.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 666.1999999992549
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 1063.0999999977648
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 1041.2999999970198
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 1071
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 1513.800000000745
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 744.8000000007451
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1527.300000000745
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1646.300000000745
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 1277.4000000022352
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 823.7999999970198
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 1063.7999999970198
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 4,
+      "cache": "warm",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 376,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 332,
+      "ttfb": 0.3999999985098839,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 300,
+          "duration": 309.70000000298023
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 5,
+      "cache": "cold",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 2088,
+      "cls": 0.0007977220775675438,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 1348,
+      "ttfb": 0.7000000029802322,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 109751,
+          "duration": 1758.4000000022352
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 35808,
+          "duration": 1001.5
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 1907,
+          "duration": 363.8999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 20238,
+          "duration": 783.8000000007451
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 20916,
+          "duration": 798.5999999977648
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 16730,
+          "duration": 940.3000000007451
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 3182,
+          "duration": 790.2000000029802
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 1915,
+          "duration": 1142
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 5520,
+          "duration": 1165.2000000029802
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 436,
+          "duration": 1128.3999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 34893,
+          "duration": 1732.699999999255
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 968,
+          "duration": 328.69999999925494
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 3819,
+          "duration": 373.30000000074506
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 16004,
+          "duration": 871.3999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 70240,
+          "duration": 1421.8999999985099
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 91800,
+          "duration": 1542.199999999255
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 42904,
+          "duration": 1307.9000000022352
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    },
+    {
+      "profile": "mobile-slow",
+      "repeat": 5,
+      "cache": "warm",
+      "settings": {
+        "name": "mobile-slow",
+        "width": 390,
+        "height": 844,
+        "latency": 300,
+        "rate": 200000,
+        "cpu": 4
+      },
+      "lcp": 84,
+      "cls": 0,
+      "longTasks": [],
+      "events": [],
+      "lcpElement": "<img class=\"hero-image\" src=\"Images/header-iamgen.jpg\" width=\"1080\" height=\"720\" fetchpriority=\"high\" alt=\"Conferencista en un escenario frente al público\">",
+      "fcp": 48,
+      "ttfb": 0.3999999985098839,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/Images/header-iamgen.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/fonts.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/main.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/redesign.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/corrections.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/styles/navigation-presentation.css",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/navigation.js?v=presentation-2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/gallery.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/main.js?v=presentation-1",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/dancing-script-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/fonts/montserrat-black-latin.woff2",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/components/contact.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/scripts/resources.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/contact-box%20social-box.jpg",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "overflow": false,
+      "errors": [],
+      "failed": []
+    }
+  ],
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "width": 801,
+      "overflow": false,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "width": 1894,
+      "overflow": false,
+      "axe": [],
+      "errors": []
+    }
+  ],
+  "galleryNext": "2 / 3",
+  "galleryPrev": "1 / 3",
+  "contact": {
+    "href": "https://wa.me/5492995751684?text=Hola%20Cecilia%2C%20soy%20%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E.%0AMi%20email%20es%20audit%40example.com.%0A%0AHola%20%26%20prueba%20%23%20%C3%A1%20%3Cscript%3Ealert(1)%3C%2Fscript%3E",
+    "injected": 0,
+    "popups": 1,
+    "invalidated": true
+  },
+  "newsletterDisabled": true,
+  "popupCount": 0,
+  "noJS": {
+    "overflow": false,
+    "contactDisabled": true,
+    "galleryPages": 3
+  },
+  "text200Overflow": false
+}

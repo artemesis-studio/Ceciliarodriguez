@@ -4,7 +4,9 @@ export function initContact() {
   const status = form.querySelector(".form-status");
   const draft = form.querySelector(".draft-link");
   const button = form.querySelector('button[type="submit"]');
-  const fields = [...form.querySelectorAll("input, textarea")];
+  const interest = form.elements.interest;
+  const clearInterest = form.querySelector(".interest-clear");
+  const fields = [...form.querySelectorAll("input, select, textarea")];
   const touched = new WeakSet();
   const controller = new AbortController();
   const events = { signal: controller.signal };
@@ -38,6 +40,22 @@ export function initContact() {
     draft.removeAttribute("href");
     status.textContent = "";
   }
+
+  function syncInterest() {
+    clearInterest.hidden = !interest.value;
+  }
+
+  interest.addEventListener("change", () => {
+    syncInterest();
+    invalidateDraft();
+  }, events);
+
+  clearInterest.addEventListener("click", () => {
+    interest.value = "";
+    syncInterest();
+    invalidateDraft();
+    interest.focus();
+  }, events);
 
   form.addEventListener(
     "input",
@@ -76,9 +94,13 @@ export function initContact() {
     anchor.addEventListener(
       "click",
       () => {
+        interest.value = anchor.dataset.service;
+        syncInterest();
         form.elements.message.value = `Me interesa ${anchor.dataset.service}. `;
         syncError(form.elements.message);
         invalidateDraft();
+        document.querySelector("#contacto")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        window.setTimeout(() => interest.focus(), 350);
       },
       events,
     );
@@ -91,7 +113,9 @@ export function initContact() {
       fields.forEach((field) => syncError(field, true));
       if (!form.reportValidity()) return;
       const data = new FormData(form);
-      const message = `Hola Cecilia, soy ${data.get("name").trim()}.\nMi email es ${data.get("email").trim()}.\n\n${data.get("message").trim()}`;
+      const selectedInterest = data.get("interest").trim();
+      const topic = selectedInterest ? `\nMe interesa: ${selectedInterest}.` : "";
+      const message = `Hola Cecilia, soy ${data.get("name").trim()}.${topic}\nMi email es ${data.get("email").trim()}.\n\n${data.get("message").trim()}`;
       draft.href = `https://wa.me/5492995751684?text=${encodeURIComponent(message)}`;
       draft.hidden = false;
       status.textContent =
@@ -111,6 +135,7 @@ export function initContact() {
         field.removeAttribute("aria-invalid");
         field.removeAttribute("aria-describedby");
       });
+      syncInterest();
     },
     events,
   );

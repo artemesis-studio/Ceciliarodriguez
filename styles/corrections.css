@@ -150,6 +150,8 @@
 .gallery-carousel { margin-inline: auto; }
 .gallery .gallery-grid {
   display: flex;
+  /* Keep offscreen carousel layout/painting within its own bounds. */
+  contain: layout paint;
   gap: 1rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -218,6 +220,36 @@
 .resources .pocket-card h3 { font-size: 1.375rem; font-weight: 600; line-height: 1.3; margin: 0.75rem 0 1.5rem; text-align: left; }
 .pocket-card .button { margin-top: auto; font-size: 1rem; }
 .pocket-all { display: block; width: fit-content; max-width: 100%; margin: 1.5rem auto 0; padding-block: 0.5rem; text-align: center; text-decoration: underline; text-underline-offset: 4px; }
+.newsletter {
+  width: min(100%, 48rem);
+  margin: 3rem auto 0;
+  padding: clamp(1.5rem, 3vw, 2rem);
+  border: 1px solid #0f336329;
+  border-radius: 1.5rem;
+  background: #fff;
+}
+.newsletter .eyebrow { color: var(--blue); }
+.newsletter h3 { margin-top: 0.5rem; font-size: clamp(1.5rem, 1.25rem + 0.6vw, 2rem); font-weight: 700; line-height: 1.3; }
+.newsletter-description { margin-top: 0.75rem; font-size: 1rem; color: var(--black); }
+.newsletter-form { margin-top: 1.5rem; }
+.newsletter-form label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+.newsletter-controls { display: flex; flex-wrap: wrap; align-items: stretch; gap: 0.75rem; }
+.newsletter-controls input {
+  flex: 1 1 16rem;
+  min-width: 0;
+  width: 100%;
+  min-height: 48px;
+  padding: 0.75rem;
+  border: 1px solid #0f33638c;
+  border-radius: 0.5rem;
+  background: var(--white);
+  color: var(--black);
+  font-size: 1rem;
+}
+.newsletter-controls input::placeholder { color: #616161; opacity: 1; }
+.newsletter-controls .button { min-height: 48px; font-size: 1rem; }
+.newsletter-controls :disabled { cursor: not-allowed; }
+.newsletter .newsletter-note { margin-top: 0.75rem; font-size: 0.875rem; color: #404c60; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 .resource-downloads { display: grid; gap: 1rem; margin-top: 1.5rem; }
 .resource-download { text-decoration: underline; text-underline-offset: 4px; }
@@ -278,6 +310,36 @@
 
 /* Stronger boundaries on white and a light focus indicator on the blue footer. */
 .contact .contact-form :is(input, textarea) { border-color: #0f33638c; }
+.contact .contact-form .interest-control {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+.contact .contact-form select {
+  min-width: 0;
+  flex: 1;
+  border: 1px solid #0f336359;
+  border-radius: var(--component-radius-small);
+  background: white;
+  color: var(--black);
+  padding: 0.625rem;
+  font: inherit;
+  font-size: 1rem;
+}
+.contact .contact-form select:focus-visible {
+  outline: 2px solid var(--pink);
+  outline-offset: 0;
+  border-color: var(--pink);
+}
+.contact .contact-form .interest-clear {
+  border: 0;
+  background: transparent;
+  color: var(--blue);
+  text-decoration: underline;
+  font: inherit;
+  font-size: 0.875rem;
+  padding-inline: 0.25rem;
+}
 .contact .contact-form :is(input, textarea):hover { border-color: var(--blue); }
 .contact .contact-form :is(input, textarea):focus-visible,
 .contact .contact-form :is(input, textarea)[aria-invalid="true"] { border-color: var(--pink); }

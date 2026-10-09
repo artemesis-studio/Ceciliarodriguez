@@ -1,0 +1,117 @@
+{
+  "widths": [
+    {
+      "compact": true,
+      "height": 81,
+      "linksVisible": 0,
+      "offset": "81px",
+      "scrollWidth": 320,
+      "space": "158px",
+      "width": 320
+    },
+    {
+      "compact": true,
+      "height": 81,
+      "linksVisible": 0,
+      "offset": "81px",
+      "scrollWidth": 390,
+      "space": "158px",
+      "width": 390
+    },
+    {
+      "compact": true,
+      "height": 81,
+      "linksVisible": 0,
+      "offset": "81px",
+      "scrollWidth": 768,
+      "space": "158px",
+      "width": 768
+    },
+    {
+      "compact": true,
+      "height": 81,
+      "linksVisible": 0,
+      "offset": "81px",
+      "scrollWidth": 800,
+      "space": "158px",
+      "width": 800
+    },
+    {
+      "compact": true,
+      "height": 81,
+      "linksVisible": 7,
+      "offset": "81px",
+      "scrollWidth": 801,
+      "space": "158px",
+      "width": 801
+    },
+    {
+      "compact": true,
+      "height": 81,
+      "linksVisible": 7,
+      "offset": "81px",
+      "scrollWidth": 1024,
+      "space": "195px",
+      "width": 1024
+    },
+    {
+      "compact": true,
+      "height": 81,
+      "linksVisible": 7,
+      "offset": "81px",
+      "scrollWidth": 1440,
+      "space": "264px",
+      "width": 1440
+    }
+  ],
+  "expanded": {
+    "compact": false,
+    "height": 237.34375,
+    "heroHeight": 662,
+    "heroTop": 238,
+    "scrollY": 0,
+    "space": "238px"
+  },
+  "compact": {
+    "compact": true,
+    "height": 81,
+    "heroHeight": 662,
+    "heroTop": 238,
+    "overflow": 1280,
+    "scrollY": 900,
+    "space": "238px",
+    "width": 1280
+  },
+  "keyboard": {
+    "barBottom": 81,
+    "compact": true,
+    "focus": "Mis Servicios",
+    "top": 165
+  },
+  "mobileMenu": {
+    "expanded": "true",
+    "height": 205,
+    "offset": "205px",
+    "overflow": 390,
+    "space": "158px",
+    "width": 390
+  },
+  "mobileEscape": {
+    "expanded": "false",
+    "focus": "nav-toggle"
+  },
+  "mobileExpanded": {
+    "compact": false,
+    "height": 157.71875,
+    "overflow": 390,
+    "scrollY": 0,
+    "space": "158px",
+    "width": 390
+  },
+  "stableLayout": true,
+  "limits": [
+    "No verificación visual file://: protocolo bloqueado por política del navegador de pruebas",
+    "Sin emulación de movimiento reducido o JavaScript desactivado; alternativas revisadas en código",
+    "Verificación en navegador integrado local, sin Safari/Firefox"
+  ]
+}

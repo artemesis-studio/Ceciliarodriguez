@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "cache-control": "no-cache",
+    "content-length": "54708",
+    "content-security-policy": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "content-type": "text/html",
+    "cross-origin-opener-policy": "same-origin-allow-popups",
+    "date": "Fri, 09 Oct 2026 13:04:51 GMT",
+    "last-modified": "Fri, 09 Oct 2026 13:04:08 GMT",
+    "permissions-policy": "camera=(), microphone=(), geolocation=()",
+    "referrer-policy": "no-referrer",
+    "server": "SimpleHTTP/0.6 Python/3.14.0",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "focused": "Mis Servicios",
+  "gallery": "2 / 3",
+  "validDraft": true,
+  "errors": [],
+  "beforeProbe": [],
+  "privatePaths": {
+    ".git/config": 404,
+    "AGENTS.md": 404,
+    "Vanilla_Web_v6.pdf": 404,
+    "docs/": 404,
+    "tools/build_site.py": 404
+  },
+  "probe": {
+    "executed": false,
+    "violations": [
+      {
+        "directive": "script-src-elem",
+        "blocked": "inline"
+      }
+    ]
+  }
+}
