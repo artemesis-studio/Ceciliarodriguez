@@ -388,6 +388,73 @@
   word-spacing: normal;
 }
 .footer :is(p, h3) { text-align: center; text-align-last: center; }
+
+/* Lightweight motion system: transforms and opacity never change layout. */
+.motion-ready .header .hero-copy h1,
+.motion-ready .header .hero-copy > p.hero-offer {
+  animation: hero-enter var(--motion-entrance) cubic-bezier(.2, .75, .25, 1) both;
+}
+.motion-ready .header .hero-copy h1 { animation-delay: 160ms; }
+.motion-ready .header .hero-copy > p.hero-offer { animation-delay: 90ms; }
+.motion-ready .header .hero-copy h1 span {
+  display: inline-block;
+  animation: hero-word-enter var(--motion-entrance) cubic-bezier(.2, .75, .25, 1) 260ms both;
+}
+.motion-ready .about-copy,
+.motion-ready .about-copy blockquote {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+.motion-ready .about-copy.is-visible,
+.motion-ready .about-copy blockquote.is-visible {
+  opacity: 1;
+  transform: none;
+}
+.motion-ready .about-copy blockquote { transition-delay: 120ms; }
+.motion-ready .about-copy blockquote::after {
+  content: "";
+  display: block;
+  width: min(10rem, 55%);
+  height: 0.18rem;
+  margin-top: 1rem;
+  background: var(--pink);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 650ms ease 280ms;
+}
+.motion-ready .about-copy blockquote.is-visible::after { transform: scaleX(1); }
+@keyframes hero-enter {
+  from { opacity: 0; transform: translateY(0.75rem); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes hero-word-enter {
+  from { opacity: 0; transform: translateY(0.9rem); }
+  to { opacity: 1; transform: none; }
+}
+.motion-minimal .header .hero-copy h1,
+.motion-minimal .header .hero-copy h1 span,
+.motion-minimal .header .hero-copy > p.hero-offer,
+.motion-minimal .about-copy,
+.motion-minimal .about-copy blockquote {
+  animation: none;
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+.motion-minimal .about-copy blockquote::after {
+  transform: scaleX(1);
+  transition: none;
+}
+
+/* On narrow or touch-first screens, preserve content and use only a short fade. */
+@media (max-width: 600px), (hover: none) {
+  .motion-ready .header .hero-copy h1,
+  .motion-ready .header .hero-copy h1 span,
+  .motion-ready .header .hero-copy > p.hero-offer {
+    animation-duration: 450ms;
+  }
+}
 .contact .section-heading h2 span { color: var(--blue); }
 .contact .section-heading h2,
 .contact .section-heading h2 span {

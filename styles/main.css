@@ -6,6 +6,13 @@
   --black: #101010;
   --nav-height: 90px;
   --nav-min-height: 90px;
+  --space-section: clamp(4rem, 8vw, 8rem);
+  --space-card: clamp(1.25rem, 2vw, 2rem);
+  --radius-card: 1.5rem;
+  --radius-control: 0.5rem;
+  --shadow-soft: 0 0.5rem 1.5rem #10101014;
+  --motion-fast: 180ms;
+  --motion-entrance: 700ms;
 }
 * {
   box-sizing: border-box;
