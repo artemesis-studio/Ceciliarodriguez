@@ -1,0 +1,417 @@
+{
+  "date": "2026-10-09",
+  "url": "http://127.0.0.1:4173/",
+  "sizes": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "resourceWidth": 284,
+      "resourceCenter": 160,
+      "quickLinksCenter": 160,
+      "copyrightAlign": "center",
+      "pocketCenter": 160,
+      "pocketAllCenter": 160,
+      "pocketLogoCenter": 160,
+      "organizationAlign": "center",
+      "social": [
+        {
+          "center": 160,
+          "parentCenter": 160,
+          "text": "Instagram (abre una nueva pestaña)",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgb(15, 51, 99)"
+        },
+        {
+          "center": 159.9921875,
+          "parentCenter": 160,
+          "text": "Instagram",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "reserved": 158,
+      "navHeight": 157.75
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "resourceWidth": 351,
+      "resourceCenter": 195,
+      "quickLinksCenter": 195,
+      "copyrightAlign": "center",
+      "pocketCenter": 195,
+      "pocketAllCenter": 194.9921875,
+      "pocketLogoCenter": 195,
+      "organizationAlign": "center",
+      "social": [
+        {
+          "center": 195,
+          "parentCenter": 195,
+          "text": "Instagram (abre una nueva pestaña)",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgb(15, 51, 99)"
+        },
+        {
+          "center": 194.9921875,
+          "parentCenter": 195,
+          "text": "Instagram",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "reserved": 86,
+      "navHeight": 85.25
+    },
+    {
+      "width": 600,
+      "scrollWidth": 600,
+      "resourceWidth": 540,
+      "resourceCenter": 300,
+      "quickLinksCenter": 300,
+      "copyrightAlign": "center",
+      "pocketCenter": 300,
+      "pocketAllCenter": 299.9921875,
+      "pocketLogoCenter": 300,
+      "organizationAlign": "center",
+      "social": [
+        {
+          "center": 300,
+          "parentCenter": 300,
+          "text": "Instagram (abre una nueva pestaña)",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgb(15, 51, 99)"
+        },
+        {
+          "center": 299.9921875,
+          "parentCenter": 300,
+          "text": "Instagram",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "reserved": 86,
+      "navHeight": 85.25
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "resourceWidth": 691.1875,
+      "resourceCenter": 384,
+      "quickLinksCenter": 384,
+      "copyrightAlign": "center",
+      "pocketCenter": 384,
+      "pocketAllCenter": 383.9921875,
+      "pocketLogoCenter": 384,
+      "organizationAlign": "center",
+      "social": [
+        {
+          "center": 384,
+          "parentCenter": 384,
+          "text": "Instagram (abre una nueva pestaña)",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgb(15, 51, 99)"
+        },
+        {
+          "center": 383.9921875,
+          "parentCenter": 384,
+          "text": "Instagram",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "reserved": 89,
+      "navHeight": 88.59375
+    },
+    {
+      "width": 800,
+      "scrollWidth": 800,
+      "resourceWidth": 720,
+      "resourceCenter": 400,
+      "quickLinksCenter": 400,
+      "copyrightAlign": "center",
+      "pocketCenter": 400,
+      "pocketAllCenter": 399.9921875,
+      "pocketLogoCenter": 400,
+      "organizationAlign": "center",
+      "social": [
+        {
+          "center": 400,
+          "parentCenter": 400,
+          "text": "Instagram (abre una nueva pestaña)",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgb(15, 51, 99)"
+        },
+        {
+          "center": 399.9921875,
+          "parentCenter": 400,
+          "text": "Instagram",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "reserved": 89,
+      "navHeight": 88.59375
+    },
+    {
+      "width": 801,
+      "scrollWidth": 801,
+      "resourceWidth": 720.890625,
+      "resourceCenter": 400.4921875,
+      "quickLinksCenter": 400.4921875,
+      "copyrightAlign": "center",
+      "pocketCenter": 400.4921875,
+      "pocketAllCenter": 400.4921875,
+      "pocketLogoCenter": 400.484375,
+      "organizationAlign": "center",
+      "social": [
+        {
+          "center": 400.5,
+          "parentCenter": 400.5,
+          "text": "Instagram (abre una nueva pestaña)",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgb(15, 51, 99)"
+        },
+        {
+          "center": 147.9609375,
+          "parentCenter": 147.96875,
+          "text": "Instagram",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "reserved": 97,
+      "navHeight": 96.1875
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "resourceWidth": 768,
+      "resourceCenter": 512,
+      "quickLinksCenter": 511.9921875,
+      "copyrightAlign": "center",
+      "pocketCenter": 512,
+      "pocketAllCenter": 511.9921875,
+      "pocketLogoCenter": 512,
+      "organizationAlign": "center",
+      "social": [
+        {
+          "center": 764.75,
+          "parentCenter": 764.75,
+          "text": "Instagram (abre una nueva pestaña)",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgb(15, 51, 99)"
+        },
+        {
+          "center": 189.0390625,
+          "parentCenter": 189.046875,
+          "text": "Instagram",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "reserved": 92,
+      "navHeight": 91.484375
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "resourceWidth": 768,
+      "resourceCenter": 720,
+      "quickLinksCenter": 719.9921875,
+      "copyrightAlign": "center",
+      "pocketCenter": 720,
+      "pocketAllCenter": 719.9921875,
+      "pocketLogoCenter": 720,
+      "organizationAlign": "center",
+      "social": [
+        {
+          "center": 1008.75,
+          "parentCenter": 1008.75,
+          "text": "Instagram (abre una nueva pestaña)",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgb(15, 51, 99)"
+        },
+        {
+          "center": 351.5703125,
+          "parentCenter": 351.578125,
+          "text": "Instagram",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "reserved": 99,
+      "navHeight": 98.25
+    },
+    {
+      "width": 1894,
+      "scrollWidth": 1894,
+      "resourceWidth": 768,
+      "resourceCenter": 947,
+      "quickLinksCenter": 946.9921875,
+      "copyrightAlign": "center",
+      "pocketCenter": 947,
+      "pocketAllCenter": 946.9921875,
+      "pocketLogoCenter": 947,
+      "organizationAlign": "center",
+      "social": [
+        {
+          "center": 1235.75,
+          "parentCenter": 1235.75,
+          "text": "Instagram (abre una nueva pestaña)",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgb(15, 51, 99)"
+        },
+        {
+          "center": 578.5703125,
+          "parentCenter": 578.578125,
+          "text": "Instagram",
+          "iconColor": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "reserved": 99,
+      "navHeight": 98.25
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "contrast": {
+    "styles": {
+      "border": "rgba(15, 51, 99, 0.55)",
+      "footerBackground": "rgb(15, 51, 99)"
+    },
+    "fieldBorder": 3.3156531758639467,
+    "footerFocusColor": "rgb(245, 245, 245)",
+    "footerFocus": 11.506467740872626
+  },
+  "checks": {
+    "linkArrows": {
+      "instagram": [
+        false,
+        false
+      ],
+      "pocket": false,
+      "instagramNames": [
+        "Instagram (abre una nueva pestaña)",
+        "Instagram"
+      ],
+      "pocketHref": "https://ceciliarodriguez.hotmart.host/oratoria-pocket",
+      "pocketNewTab": "(abre una nueva pestaña)"
+    },
+    "states": [
+      {
+        "state": "focus",
+        "style": {
+          "outline": "rgb(188, 66, 101)",
+          "border": "rgb(188, 66, 101)"
+        }
+      }
+    ],
+    "invalid": {
+      "visible": false,
+      "invalid": [
+        {
+          "id": "name",
+          "aria": "true",
+          "border": "rgb(188, 66, 101)"
+        },
+        {
+          "id": "email",
+          "aria": "true",
+          "border": "rgb(188, 66, 101)"
+        },
+        {
+          "id": "message",
+          "aria": "true",
+          "border": "rgb(188, 66, 101)"
+        }
+      ]
+    },
+    "draft": {
+      "visible": true,
+      "focus": "draft-link button button-blue",
+      "href": "https://wa.me/5492995751684?text=Hola%20Cecilia%2C%20soy%20Prueba%20%C3%81lvarez.%0AMi%20email%20es%20prueba%40example.com.%0A%0APrueba%20ficticia%20de%20consulta."
+    },
+    "invalidated": true,
+    "axe390": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    "axe1440": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "zoom200": {
+      "width": 720,
+      "scrollWidth": 720
+    },
+    "menu": "false",
+    "noJS": {
+      "width": 390,
+      "scrollWidth": 390,
+      "photos": 20,
+      "submitDisabled": true,
+      "instagramIcons": 2
+    }
+  },
+  "browser": "154.0.8037.98",
+  "assetHashes": {
+    "Images/.DS_Store": "c2bfdaec7dacd571b602b0396d50fc2f0c418ddfc2b4c35672e41079bb1aad79",
+    "Images/Header-new.jpg": "3320ee479164ff5c3122aba72517212e8affee9ada4979ffc9c77ffce3c6e36b",
+    "Images/IMÁGENES-div class-gallery/Capacitacion para empresas- La Colonia Shell.jpeg": "c73373ed291e45add1adf0537a63d5eb77275595b3aaefbf221d41426c12249b",
+    "Images/IMÁGENES-div class-gallery/Capacitacion para empresas. Dra Urcera. Neuquén.jpeg": "6ea091a37a7c3fdcd85495271b3364777100a1f9d889cf243716e8beaaf482b9",
+    "Images/IMÁGENES-div class-gallery/Conferencias.jpeg": "9faa5189391e8020a933ebaaa9b677878650128e9a39c31135ac5796ea59b794",
+    "Images/IMÁGENES-div class-gallery/DSC04204.jpg": "669f5163a1278bf7d457e860cacbe5e80506ee8443827c3e2238f8a573fb3b20",
+    "Images/IMÁGENES-div class-gallery/DSC07391.jpg.jpeg": "ed5703a25648c2d70ea901d1b6295e4931540117a078d2d6e2f279a1755c08ea",
+    "Images/IMÁGENES-div class-gallery/DSC09217 copy.jpg": "e4b8ef5e0ffe90e7fc4fa916db84492b05aaef2ce7b2bd491707d08f74af3d68",
+    "Images/IMÁGENES-div class-gallery/IMG_20250514_090610013_HDR.jpg": "d6380335e960ef16e259fe05286a53b89181a93f4eac36bf0f477fc5d33d3112",
+    "Images/IMÁGENES-div class-gallery/Mentoría Individual 1-1 - Diego Manfio.jpeg": "bfcecb3d9c50885de64a00692bab1ad8a9e7df5a690de39b62ef509749d94923",
+    "Images/IMÁGENES-div class-gallery/Mujer_podcast_blusa_blanca_3.png": "7455c9e1d82efaa9fbb6e7737de4fccfc2c5414f7f8b52d5ccfbfcfde16e451b",
+    "Images/IMÁGENES-div class-gallery/Previo a dar clase en el Polo Tecnológico, Nqn 2.jpeg": "749d2a263d42b33e035d60a758f257ecddef92d43d384106d5c3e3c667292f5e",
+    "Images/IMÁGENES-div class-gallery/Previo a dar clase en el Polo Tecnológico, Nqn.jpeg": "c7996436c0c4aa330cff81c0dad626bce012f0c233fa2bdc2dee1fd4829f0b96",
+    "Images/IMÁGENES-div class-gallery/WhatsApp Image 2024-06-07 at 2.29.52 PM.jpeg": "273bf8d1b64c3caf999dd6a70c9b464dd24217024e607ea5b74ee4f53be78241",
+    "Images/IMÁGENES-div class-gallery/WhatsApp Image 2024-06-07 at 2.29.53 PM (1).jpeg": "ae68ba65e8198ebb38d8fc350674522caa51237d26af359438a169ec7df305a6",
+    "Images/IMÁGENES-div class-gallery/WhatsApp Image 2024-06-07 at 2.29.53 PM.jpeg": "f47fb14c5274974ec6d3c676e9a8e7258fe5e9258a5026892b4aa88afb478718",
+    "Images/IMÁGENES-div class-gallery/WhatsApp Image 2025-12-10 at 19.38.11.jpeg": "20077cb1fcb6b325da9cab33cf7183b951115147ebeb48a8bda09fd912423bfe",
+    "Images/IMÁGENES-div class-gallery/WhatsApp Image 2025-12-10 at 19.38.59.jpeg": "1d90da750e6b2e5c516ab8d3fd44e431baadc25ecdfb66b33d79f618a7faef48",
+    "Images/IMÁGENES-div class-gallery/WhatsApp Image 2026-04-15 at 17.13.02.jpeg": "1a7e3447c5620eff11e44b8dacfecf43203df8e722210af2e53be51826df58e0",
+    "Images/IMÁGENES-div class-gallery/WhatsApp Image 2026-06-26 at 20.13.04 (2).jpeg": "b0b34922d739a64830d32643ea67032d789fe749260ea433cceda765e4404406",
+    "Images/IMÁGENES-div class-gallery/WhatsApp Image 2026-06-26 at 20.13.04.jpeg": "cb28ba208ed7e884f439ddd81487be710032ab2264bcf5e025e6bb06b5015420",
+    "Images/IMÁGENES-div class-gallery/foto.png": "62dd6e5a24be92d31db7c3da45bb30514e51b321e586bda543a84a6590b3a92e",
+    "Images/Logos/LOGO CECI - NUEVO 2026_Mesa de trabajo 1 copia 3.png": "5872eeefc88e9f90ab14fcde5529fa75c8c9097f2cf92f2aa161b66c4c3e3959",
+    "Images/Logos/LOGO CECI - NUEVO 2026_Mesa de trabajo 1 copia 5.png": "55cc64922097c0dd31c6c4c68682a0b7a065cb3e25ea99521ca1882c24df88d7",
+    "Images/Logos/ORATORIA POCKET/LOGO ORATORIA POCKET-14.png": "4af87309cf9da5bca5656b0dd77941a08aebb916cb2540ce7d07c0d034bc0ff9",
+    "Images/Logos/ORATORIA POCKET/LOGO ORATORIA POCKET-15.png": "0e75014d6b90ef6000679775e1d10d4c36b8cbb4b9b2c6341037fe338a634ce1",
+    "Images/Oratoria-1.jpg": "d7bab6cae5050f267a722f716689435e61d859857458582b22a3ab35e4251cf1",
+    "Images/Oratoria-2.jpg": "ebc89e0b35ed9d5df5cfe4a9c3142a16c71c7e6fe2f1a2331522fced943b8056",
+    "Images/Oratoria-3.jpg": "f5b58319d92cac38d51549eae0ebd9c8a6ca0fcad7da90a30009b8b1f0ce3931",
+    "Images/Sobre-mi-new.jpg": "a81531c2f358425b35f221db90611fdf1d82c3998fedf873f3472633f68f133b",
+    "Images/header-iamgen.jpg": "723929550b26460719e5468aa799037092adbc706f5ffcfc5342eb22a7881118",
+    "Images/sobremi.jpg": "694d237cbdb7d6787e404a847a04144e4344599dfc7b5c8dc9296cdeef24a9f3",
+    "assets/fonts/DancingScript-OFL.txt": "6f090277c00af96651ce6dbcc38ff1591047a3bffef486e80b6a32e8276a8201",
+    "assets/fonts/Montserrat-OFL.txt": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+    "assets/fonts/README.md": "41e00fc4d488cca707d69e076871453df151167a27c760e10d7652775d941a0b",
+    "assets/fonts/dancing-script-latin-ext.woff2": "0be22fbaae6716f7b55ce24268c86381589d31fc8f5f43a9295b740a1c54a457",
+    "assets/fonts/dancing-script-latin.woff2": "5e08eb55c88b8658453e2ba916023964e0f67b98cd7abfa436eb8150968ee19e",
+    "assets/fonts/montserrat-black-latin-ext.woff2": "e1e1abe788eb56961f58295970db85050896d1de33ea9bd77d8aef021565824b",
+    "assets/fonts/montserrat-black-latin.woff2": "0a53da911b5f2ffacd4bcc71e05f97f965fcf3564cea98f332cc4d95ce64d99e",
+    "assets/fonts/montserrat-latin-ext.woff2": "920711de9ae96c18970fa4faca73cd302b93ac5ed57ebeb6bfec2ddeff930082",
+    "assets/fonts/montserrat-latin.woff2": "6438d7b8ea9c7c3992d5e2fd2afdb1ff948570a3ef0bedae76247b51632960ba",
+    "scripts/components/contact.js": "57908714b6a98f93edcf570ae42adcc8f1a7dfd7f4ee8fc6d0c8921f36a9f084",
+    "scripts/components/gallery.js": "ec04d4a256df85cf98980685e97eb933c032f292730c8f49d9ba717444e0aeb5",
+    "scripts/components/navigation.js": "c59824864517582845f9a37bc70fcafcc08c04ff2c536c9b738a115f572fa499",
+    "scripts/main.js": "31eb9603a54cf5ab02acca20ed0d44295ec657b851e94645ebe0a96afc0ff95b",
+    "scripts/resources.js": "598a12f6c690578037e157e06d3b69fc48136c1cd9bc90c1b49802ffb202627e"
+  },
+  "javascriptUnchanged": true,
+  "limits": [
+    "Chrome local; sin Safari o Firefox",
+    "No se abrió WhatsApp, Instagram o Hotmart durante las interacciones",
+    "Optimización de imágenes sigue pendiente"
+  ]
+}

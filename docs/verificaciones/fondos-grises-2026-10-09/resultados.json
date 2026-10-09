@@ -1,0 +1,119 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "pageWidth": 320,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/contact-box%20social-box.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 153.984375
+        },
+        {
+          "selector": ".contact .map",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 190
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "pageWidth": 390,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/contact-box%20social-box.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 153.984375
+        },
+        {
+          "selector": ".contact .map",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 190
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "pageWidth": 768,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/contact-box%20social-box.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 161.984375
+        },
+        {
+          "selector": ".contact .map",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 190
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "pageWidth": 1024,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/contact-box%20social-box.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 161.984375
+        },
+        {
+          "selector": ".contact .map",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 190
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "pageWidth": 1440,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/contact-box%20social-box.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 161.984375
+        },
+        {
+          "selector": ".contact .map",
+          "background": "linear-gradient(in oklab, rgba(245, 245, 245, 0.84), rgba(245, 245, 245, 0.94)), url(\"http://127.0.0.1:4173/Images/a%20class%3D_map_.jpg\")",
+          "color": "rgb(16, 16, 16)",
+          "height": 190
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "Images/contact-box%20social-box.jpg",
+      "width": 1200,
+      "height": 600
+    },
+    {
+      "src": "Images/a%20class%3D_map_.jpg",
+      "width": 1200,
+      "height": 600
+    }
+  ],
+  "focus": {
+    "outline": "rgb(188, 66, 101)",
+    "width": "3px",
+    "href": "https://www.google.com/maps/search/?api=1&query=Neuqu%C3%A9n%2C+Argentina"
+  },
+  "zoom": {
+    "width": 720,
+    "pageWidth": 720
+  },
+  "errors": [],
+  "failed": [],
+  "contrastLowerBoundText": 12.043338774014112,
+  "contrastLowerBoundMapIcon": 7.939840635263191
+}

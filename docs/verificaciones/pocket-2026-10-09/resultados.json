@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "removed": true,
+      "descriptionColor": "rgb(16, 16, 16)",
+      "headingAlign": "center",
+      "subheadingAlign": "center",
+      "cards": [
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "removed": true,
+      "descriptionColor": "rgb(16, 16, 16)",
+      "headingAlign": "center",
+      "subheadingAlign": "center",
+      "cards": [
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "removed": true,
+      "descriptionColor": "rgb(16, 16, 16)",
+      "headingAlign": "center",
+      "subheadingAlign": "center",
+      "cards": [
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "removed": true,
+      "descriptionColor": "rgb(16, 16, 16)",
+      "headingAlign": "center",
+      "subheadingAlign": "center",
+      "cards": [
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "removed": true,
+      "descriptionColor": "rgb(16, 16, 16)",
+      "headingAlign": "center",
+      "subheadingAlign": "center",
+      "cards": [
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        },
+        {
+          "align": "center",
+          "titleAlign": "center",
+          "buttonCentered": true
+        }
+      ]
+    }
+  ],
+  "zoom": {
+    "width": 720,
+    "scrollWidth": 720
+  },
+  "errors": []
+}

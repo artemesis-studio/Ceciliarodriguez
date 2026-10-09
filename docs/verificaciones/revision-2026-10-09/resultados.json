@@ -1,0 +1,1121 @@
+{
+  "date": "2026-10-09",
+  "url": "http://127.0.0.1:4173/",
+  "viewports": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "navHeight": 157.75,
+      "reserved": 158,
+      "serviceColumns": "284px",
+      "mainParagraph": "16px"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "navHeight": 85.25,
+      "reserved": 86,
+      "serviceColumns": "354px",
+      "mainParagraph": "16px"
+    },
+    {
+      "width": 600,
+      "scrollWidth": 600,
+      "navHeight": 85.25,
+      "reserved": 86,
+      "serviceColumns": "564px",
+      "mainParagraph": "16px"
+    },
+    {
+      "width": 700,
+      "scrollWidth": 700,
+      "navHeight": 88.59375,
+      "reserved": 89,
+      "serviceColumns": "630px",
+      "mainParagraph": "16px"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "navHeight": 88.59375,
+      "reserved": 89,
+      "serviceColumns": "329.594px 329.594px",
+      "mainParagraph": "16px"
+    },
+    {
+      "width": 800,
+      "scrollWidth": 800,
+      "navHeight": 88.59375,
+      "reserved": 89,
+      "serviceColumns": "344px 344px",
+      "mainParagraph": "16px"
+    },
+    {
+      "width": 801,
+      "scrollWidth": 801,
+      "navHeight": 96.1875,
+      "reserved": 97,
+      "serviceColumns": "344.438px 344.453px",
+      "mainParagraph": "16px"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "navHeight": 91.484375,
+      "reserved": 92,
+      "serviceColumns": "444.797px 444.797px",
+      "mainParagraph": "16px"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "navHeight": 98.25,
+      "reserved": 99,
+      "serviceColumns": "632px 632px",
+      "mainParagraph": "16px"
+    },
+    {
+      "width": 1894,
+      "scrollWidth": 1894,
+      "navHeight": 98.25,
+      "reserved": 99,
+      "serviceColumns": "824px 824px",
+      "mainParagraph": "16px"
+    }
+  ],
+  "functional": {
+    "menuEscape": {
+      "opened": "true",
+      "closed": "false",
+      "focus": "nav-toggle"
+    },
+    "menuLink": {
+      "focus": "Mis Servicios",
+      "top": 154.09375,
+      "barBottom": 85.25,
+      "expanded": "false"
+    },
+    "invalidForm": {
+      "draftVisible": false,
+      "fields": [
+        {
+          "id": "name",
+          "valid": false,
+          "aria": "true",
+          "description": "name-error"
+        },
+        {
+          "id": "email",
+          "valid": false,
+          "aria": "true",
+          "description": "email-error"
+        },
+        {
+          "id": "message",
+          "valid": false,
+          "aria": "true",
+          "description": "message-error"
+        }
+      ]
+    },
+    "servicePrefills": [
+      {
+        "service": "Conferencias",
+        "message": "Me interesa Conferencias. "
+      },
+      {
+        "service": "Curso de Oratoria Grupal",
+        "message": "Me interesa Curso de Oratoria Grupal. "
+      },
+      {
+        "service": "Mentorías 1:1",
+        "message": "Me interesa Mentorías 1:1. "
+      },
+      {
+        "service": "Capacitación para Empresas",
+        "message": "Me interesa Capacitación para Empresas. "
+      }
+    ],
+    "validDraft": {
+      "href": "https://wa.me/5492995751684?text=Hola%20Cecilia%2C%20soy%20Prueba%20%C3%81lvarez.%0AMi%20email%20es%20prueba%40example.com.%0A%0AConsulta%20ficticia%3A%20voz%20y%20comunicaci%C3%B3n.",
+      "visible": true,
+      "focus": "draft-link button button-blue",
+      "status": "Tu consulta está preparada. Paso 2: abrí WhatsApp para revisarla y enviarla.",
+      "openPages": 1
+    },
+    "draftInvalidation": {
+      "hidden": true,
+      "href": null,
+      "status": ""
+    },
+    "galleryPages": [
+      {
+        "position": "2 / 3",
+        "height": 922.703125,
+        "resourcesTop": 14501.75,
+        "photos": 7,
+        "broken": 0
+      },
+      {
+        "position": "3 / 3",
+        "height": 922.703125,
+        "resourcesTop": 14501.75,
+        "photos": 6,
+        "broken": 0
+      },
+      {
+        "position": "1 / 3",
+        "height": 922.703125,
+        "resourcesTop": 14501.75,
+        "photos": 7,
+        "broken": 0
+      }
+    ],
+    "reducedMotion": {
+      "play": "Reproducir fotos",
+      "animation": "none"
+    },
+    "zoom200": {
+      "viewport": 720,
+      "scrollWidth": 720,
+      "navHeight": 142.1875,
+      "reserved": 143
+    },
+    "textSpacing": {
+      "viewport": 720,
+      "scrollWidth": 720
+    },
+    "keyboardObscured": [],
+    "back": {
+      "hash": "#servicios",
+      "servicesTop": 119,
+      "barBottom": 98.25
+    },
+    "noJS": {
+      "photos": 20,
+      "buttonDisabled": true,
+      "directLink": true,
+      "nav": "sticky",
+      "scrollWidth": 390,
+      "viewport": 390
+    },
+    "rotation": {
+      "before": "1 / 3",
+      "after": "2 / 3",
+      "focusPos": "2 / 3",
+      "stopPos": "2 / 3",
+      "control": "Reproducir fotos"
+    }
+  },
+  "axe": [
+    {
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".nav-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "html": "<span aria-hidden=\"true\">☰</span>"
+            },
+            {
+              "target": [
+                ".gallery-prev"
+              ],
+              "html": "<button type=\"button\" class=\"gallery-prev\" aria-controls=\"gallery-grid\" aria-label=\"Ver fotos anteriores\">←</button>"
+            },
+            {
+              "target": [
+                ".gallery-next"
+              ],
+              "html": "<button type=\"button\" class=\"gallery-next\" aria-controls=\"gallery-grid\" aria-label=\"Ver fotos siguientes\">→</button>"
+            },
+            {
+              "target": [
+                "#message"
+              ],
+              "html": "<textarea id=\"message\" name=\"message\" aria-errormessage=\"message-error\" placeholder=\"Contame brevemente qué necesitás…\" required=\"\" maxlength=\"2000\" rows=\"3\"></textarea>"
+            }
+          ]
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": [
+            {
+              "target": [
+                "div:nth-child(1) > .brand[href$=\"#inicio\"]"
+              ],
+              "html": "<a class=\"brand\" href=\"#inicio\"><span class=\"brand-name\"><span>Cecilia</span> Rodríguez</span><span class=\"brand-tagline\">ORATORIA Y COMUNICACIÓN HUMANA</span></a>"
+            },
+            {
+              "target": [
+                "div:nth-child(1) > a:nth-child(3)"
+              ],
+              "html": "<a href=\"https://www.instagram.com/ceciliarodriguezoratoria/\">Instagram ↗</a>"
+            }
+          ]
+        }
+      ],
+      "passes": 47
+    },
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".hero-offer"
+              ],
+              "html": "<p class=\"hero-offer\">Conferencias · Cursos grupales · Mentorías 1 a 1 · Capacitación para empresas</p>"
+            },
+            {
+              "target": [
+                ".gallery-prev"
+              ],
+              "html": "<button type=\"button\" class=\"gallery-prev\" aria-controls=\"gallery-grid\" aria-label=\"Ver fotos anteriores\">←</button>"
+            },
+            {
+              "target": [
+                ".gallery-next"
+              ],
+              "html": "<button type=\"button\" class=\"gallery-next\" aria-controls=\"gallery-grid\" aria-label=\"Ver fotos siguientes\">→</button>"
+            },
+            {
+              "target": [
+                "#message"
+              ],
+              "html": "<textarea id=\"message\" name=\"message\" aria-errormessage=\"message-error\" placeholder=\"Contame brevemente qué necesitás…\" required=\"\" maxlength=\"2000\" rows=\"3\"></textarea>"
+            }
+          ]
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": [
+            {
+              "target": [
+                "div:nth-child(1) > .brand[href$=\"#inicio\"]"
+              ],
+              "html": "<a class=\"brand\" href=\"#inicio\"><span class=\"brand-name\"><span>Cecilia</span> Rodríguez</span><span class=\"brand-tagline\">ORATORIA Y COMUNICACIÓN HUMANA</span></a>"
+            },
+            {
+              "target": [
+                "div:nth-child(1) > a:nth-child(3)"
+              ],
+              "html": "<a href=\"https://www.instagram.com/ceciliarodriguezoratoria/\">Instagram ↗</a>"
+            }
+          ]
+        }
+      ],
+      "passes": 47
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "remoteRequests": [],
+  "browser": "154.0.8037.98",
+  "structure": {
+    "lang": "es-AR",
+    "h1": 1,
+    "services": 4,
+    "testimonials": 6,
+    "logos": 12,
+    "photos": 20,
+    "duplicateIds": [],
+    "missingAnchors": [],
+    "missingAlt": [],
+    "fields": [
+      {
+        "id": "name",
+        "labels": 1,
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "id": "email",
+        "labels": 1,
+        "required": true,
+        "autocomplete": "email"
+      },
+      {
+        "id": "message",
+        "labels": 1,
+        "required": true,
+        "autocomplete": ""
+      }
+    ],
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Encontrá tu Voz auténtica"
+      },
+      {
+        "tag": "H2",
+        "text": "Mis Servicios"
+      },
+      {
+        "tag": "H3",
+        "text": "Conferencias"
+      },
+      {
+        "tag": "H4",
+        "text": "Para quién es"
+      },
+      {
+        "tag": "H4",
+        "text": "Qué propongo"
+      },
+      {
+        "tag": "H4",
+        "text": "Cómo funciona"
+      },
+      {
+        "tag": "H3",
+        "text": "Curso de Oratoria Grupal"
+      },
+      {
+        "tag": "H4",
+        "text": "Para quién es"
+      },
+      {
+        "tag": "H4",
+        "text": "Qué vas a trabajar"
+      },
+      {
+        "tag": "H4",
+        "text": "Cómo funciona"
+      },
+      {
+        "tag": "H3",
+        "text": "Mentorías 1:1"
+      },
+      {
+        "tag": "H4",
+        "text": "Para quién es"
+      },
+      {
+        "tag": "H4",
+        "text": "Qué vas a trabajar"
+      },
+      {
+        "tag": "H4",
+        "text": "Cómo funciona"
+      },
+      {
+        "tag": "H3",
+        "text": "Capacitación para Empresas"
+      },
+      {
+        "tag": "H4",
+        "text": "Para quién es"
+      },
+      {
+        "tag": "H4",
+        "text": "Qué vas a trabajar"
+      },
+      {
+        "tag": "H4",
+        "text": "Cómo funciona"
+      },
+      {
+        "tag": "H3",
+        "text": "Trayectoria y experiencia"
+      },
+      {
+        "tag": "H3",
+        "text": "Procesos personalizados"
+      },
+      {
+        "tag": "H3",
+        "text": "Una mirada integral"
+      },
+      {
+        "tag": "H2",
+        "text": "Sobre mí"
+      },
+      {
+        "tag": "H3",
+        "text": "Cecilia Rodríguez"
+      },
+      {
+        "tag": "H2",
+        "text": "Mi enfoque"
+      },
+      {
+        "tag": "H3",
+        "text": "Presencia"
+      },
+      {
+        "tag": "H3",
+        "text": "Técnica"
+      },
+      {
+        "tag": "H3",
+        "text": "Humanidad"
+      },
+      {
+        "tag": "H2",
+        "text": "Lo que dicen Mis estudiantes"
+      },
+      {
+        "tag": "H3",
+        "text": "Algunas de las organizaciones que confiaron en mi trabajo"
+      },
+      {
+        "tag": "H2",
+        "text": "Las clases En acción"
+      },
+      {
+        "tag": "H2",
+        "text": "Seguí entrenando tu voz"
+      },
+      {
+        "tag": "H3",
+        "text": "Recursos gratis"
+      },
+      {
+        "tag": "H3",
+        "text": "Oratoria Pocket"
+      },
+      {
+        "tag": "H4",
+        "text": "El miedo"
+      },
+      {
+        "tag": "H4",
+        "text": "El discurso"
+      },
+      {
+        "tag": "H4",
+        "text": "El lenguaje corporal"
+      },
+      {
+        "tag": "H2",
+        "text": "Escribime hoy"
+      },
+      {
+        "tag": "H3",
+        "text": "Empecemos a conversar"
+      },
+      {
+        "tag": "H3",
+        "text": "Ubicación"
+      },
+      {
+        "tag": "H3",
+        "text": "Teléfono / WhatsApp"
+      },
+      {
+        "tag": "H3",
+        "text": "Email"
+      },
+      {
+        "tag": "H3",
+        "text": "Encontrame en redes"
+      },
+      {
+        "tag": "H3",
+        "text": "Links rápidos"
+      },
+      {
+        "tag": "H3",
+        "text": "Contacto"
+      }
+    ]
+  },
+  "images": [
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/DSC09217%20copy.jpg",
+      "width": 4240,
+      "height": 2832,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 2667589
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/DSC07391.jpg.jpeg",
+      "width": 2624,
+      "height": 3936,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 2550276
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR.jpg",
+      "width": 3072,
+      "height": 4096,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 2088965
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/DSC04204.jpg",
+      "width": 2505,
+      "height": 3758,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 2006119
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3.png",
+      "width": 1248,
+      "height": 832,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 1159949
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/foto.png",
+      "width": 352,
+      "height": 427,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 866057
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM.jpeg",
+      "width": 352,
+      "height": 427,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 423067
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20%281%29.jpeg",
+      "width": 1600,
+      "height": 1066,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 415811
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM.jpeg",
+      "width": 706,
+      "height": 872,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 335581
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59.jpeg",
+      "width": 352,
+      "height": 427,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 285791
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11.jpeg",
+      "width": 352,
+      "height": 427,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 277964
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20%282%29.jpeg",
+      "width": 848,
+      "height": 1264,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 230667
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04.jpeg",
+      "width": 1152,
+      "height": 1536,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 210883
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/Conferencias.jpeg",
+      "width": 1204,
+      "height": 1600,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 189852
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02.jpeg",
+      "width": 848,
+      "height": 1264,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 188984
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell.jpeg",
+      "width": 352,
+      "height": 427,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 152017
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/Mentori%CC%81a%20Individual%201-1%20-%20Diego%20Manfio.jpeg",
+      "width": 352,
+      "height": 427,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 150442
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnolo%CC%81gico%2C%20Nqn.jpeg",
+      "width": 960,
+      "height": 1280,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 146647
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnolo%CC%81gico%2C%20Nqn%202.jpeg",
+      "width": 1204,
+      "height": 1600,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 139764
+    },
+    {
+      "src": "Images/IMA%CC%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuque%CC%81n.jpeg",
+      "width": 960,
+      "height": 1280,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 125505
+    },
+    {
+      "src": "Images/Sobre-mi-new.jpg",
+      "width": 640,
+      "height": 655,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 122011
+    },
+    {
+      "src": "Images/header-iamgen.jpg",
+      "width": 831,
+      "height": 554,
+      "naturalWidth": 1080,
+      "naturalHeight": 720,
+      "loading": "auto",
+      "hasDimensions": true,
+      "bytes": 109451
+    },
+    {
+      "src": "Images/Logos/LOGO%20CECI%20-%20NUEVO%202026_Mesa%20de%20trabajo%201%20copia%203.png",
+      "width": 272,
+      "height": 272,
+      "naturalWidth": 1080,
+      "naturalHeight": 1080,
+      "loading": "auto",
+      "hasDimensions": true,
+      "bytes": 34593
+    },
+    {
+      "src": "Images/Logos/ORATORIA%20POCKET/LOGO%20ORATORIA%20POCKET-15.png",
+      "width": 224,
+      "height": 88,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": true,
+      "bytes": 14725
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-03.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 12792
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-10.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 9922
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-04.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 9555
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-13.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 8785
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-12.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 8584
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-01.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 8096
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-02.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 7586
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-08.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 7376
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-06.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 6985
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-07.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 6745
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-05.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 3920
+    },
+    {
+      "src": "empresasfots-section%20class%3D%22testimonials%20section%22/logos%20ceci%20empresas-09.png",
+      "width": 228,
+      "height": 80,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "hasDimensions": false,
+      "bytes": 3167
+    }
+  ],
+  "totalImageBytes": 14986223,
+  "formAppearance": {
+    "border": "rgba(15, 51, 99, 0.35)",
+    "background": "rgb(255, 255, 255)",
+    "outerBackground": "rgb(255, 255, 255)",
+    "placeholder": "rgb(117, 117, 117)"
+  },
+  "fonts": {
+    "montserrat": true,
+    "script": true
+  },
+  "manualContrast": {
+    "inputBorder": {
+      "rgb": [
+        171,
+        183.6,
+        200.4
+      ],
+      "ratio": 2.0207147628118967,
+      "minimum": 3
+    },
+    "pinkOnWhite": 5.115119209133155,
+    "pinkOnBlue": 2.452476128925507,
+    "placeholder": 4.607518093747377,
+    "recommendedBorderAlpha55": 3.3156531758639467
+  },
+  "manualCandidates": [
+    {
+      "tag": "A",
+      "class": "scroll-cue",
+      "text": "",
+      "color": "rgb(15, 51, 99)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(15, 51, 99)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "text": "Presencia",
+      "color": "rgb(250, 215, 211)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(250, 215, 211)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "text": "Técnica",
+      "color": "rgb(250, 215, 211)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(250, 215, 211)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "text": "Humanidad",
+      "color": "rgb(250, 215, 211)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(250, 215, 211)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "INPUT",
+      "class": "",
+      "text": "",
+      "color": "rgb(16, 16, 16)",
+      "background": "rgb(255, 255, 255)",
+      "outline": "rgb(16, 16, 16)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "INPUT",
+      "class": "",
+      "text": "",
+      "color": "rgb(16, 16, 16)",
+      "background": "rgb(255, 255, 255)",
+      "outline": "rgb(16, 16, 16)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "TEXTAREA",
+      "class": "",
+      "text": "",
+      "color": "rgb(16, 16, 16)",
+      "background": "rgb(255, 255, 255)",
+      "outline": "rgb(16, 16, 16)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "P",
+      "class": "form-note",
+      "text": "Primero preparás tu consulta. Después la revisás y la enviás\n                des",
+      "color": "rgb(64, 76, 96)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(64, 76, 96)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "A",
+      "class": "social-link",
+      "text": "Instagram ↗",
+      "color": "rgb(15, 51, 99)",
+      "background": "rgb(238, 243, 249)",
+      "outline": "rgb(15, 51, 99)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "A",
+      "class": "brand",
+      "text": "Cecilia RodríguezORATORIA Y COMUNICACIÓN HUMANA",
+      "color": "rgb(245, 245, 245)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(245, 245, 245)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "Instagram ↗",
+      "color": "rgb(245, 245, 245)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(245, 245, 245)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "Servicios",
+      "color": "rgb(245, 245, 245)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(245, 245, 245)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "Sobre mí",
+      "color": "rgb(245, 245, 245)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(245, 245, 245)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "Testimonios",
+      "color": "rgb(245, 245, 245)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(245, 245, 245)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "Galería",
+      "color": "rgb(245, 245, 245)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(245, 245, 245)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "Contacto",
+      "color": "rgb(245, 245, 245)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(245, 245, 245)",
+      "textDecoration": "none"
+    },
+    {
+      "tag": "A",
+      "class": "",
+      "text": "+54 9 2995 75-1684",
+      "color": "rgb(245, 245, 245)",
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(245, 245, 245)",
+      "textDecoration": "none"
+    }
+  ],
+  "brokenLoadedImages": [],
+  "focusSamples": [
+    {
+      "selector": "scroll-cue",
+      "text": "",
+      "outline": "rgb(15, 51, 99)",
+      "parent": "rgb(238, 243, 249)",
+      "outlineWidth": "3px"
+    },
+    {
+      "selector": "",
+      "text": "Servicios",
+      "outline": "rgb(188, 66, 101)",
+      "parent": "rgba(0, 0, 0, 0)",
+      "outlineWidth": "3px"
+    }
+  ],
+  "scope": "Revisión; sin modificar HTML, CSS, JavaScript, fotos o fuentes.",
+  "sourceHashes": {
+    "index.html": "c224fc386e1f1ed5a062422606b40d447fd86ba75b3b7eee3eed1ac21d29c14b",
+    "styles/corrections.css": "2a407ae30c7e0563c7e957adfadaf8f40659c85885bcb3498c4e7914cfed850e",
+    "styles/fonts.css": "260d157b79afbdb56934a06985f368772bc8b084dbaf8514bb7129b327b3881d",
+    "styles/main.css": "e3b95cabf58d68dccb28622faba5344165fd2b85e65eb8ba1de6eecf2d5ee490",
+    "styles/redesign.css": "90376d8a4e402be8f036ad35deefdd7c340d618420273f550659b51e97113fb7",
+    "scripts/components/contact.js": "57908714b6a98f93edcf570ae42adcc8f1a7dfd7f4ee8fc6d0c8921f36a9f084",
+    "scripts/components/gallery.js": "ec04d4a256df85cf98980685e97eb933c032f292730c8f49d9ba717444e0aeb5",
+    "scripts/components/navigation.js": "c59824864517582845f9a37bc70fcafcc08c04ff2c536c9b738a115f572fa499",
+    "scripts/main.js": "31eb9603a54cf5ab02acca20ed0d44295ec657b851e94645ebe0a96afc0ff95b",
+    "scripts/resources.js": "598a12f6c690578037e157e06d3b69fc48136c1cd9bc90c1b49802ffb202627e"
+  },
+  "imageSnapshotNote": "naturalWidth=0 en la captura inicial puede corresponder a carga diferida o grupo oculto; se decodificaron después las veinte fotos de galería y las restantes imágenes al entrar en pantalla.",
+  "externalLinks": {
+    "class1": "Página del producto abierta con herramienta web; título coincide",
+    "class2": "Página del producto abierta con herramienta web; título coincide",
+    "class3": "Página del producto abierta con herramienta web; título coincide",
+    "allClasses": {
+      "httpStatus": 200,
+      "note": "La herramienta web no pudo abrirla; GET de comprobación devolvió 200."
+    }
+  },
+  "limits": [
+    "Chrome local; sin Safari o Firefox",
+    "Sin prueba manual con lector de pantalla o usuarios",
+    "Sin Lighthouse ni medición de Core Web Vitals en red móvil o producción",
+    "No se abrieron enlaces WhatsApp ni se enviaron datos",
+    "Sin publicación ni comprobación de configuración del hosting"
+  ]
+}

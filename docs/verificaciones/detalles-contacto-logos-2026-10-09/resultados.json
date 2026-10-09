@@ -1,0 +1,168 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "pageWidth": 320,
+      "titleColor": "rgb(15, 51, 99)",
+      "titleWeight": "700",
+      "aboveLogos": 32,
+      "belowLogos": 32,
+      "logoCount": 12,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "borderWidth": "0px",
+          "shadow": "none"
+        },
+        {
+          "selector": ".contact .map",
+          "borderWidth": "0px",
+          "shadow": "none"
+        }
+      ],
+      "mapText": "Abrir en Google Maps"
+    },
+    {
+      "width": 390,
+      "pageWidth": 390,
+      "titleColor": "rgb(15, 51, 99)",
+      "titleWeight": "700",
+      "aboveLogos": 32,
+      "belowLogos": 32,
+      "logoCount": 12,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "borderWidth": "0px",
+          "shadow": "none"
+        },
+        {
+          "selector": ".contact .map",
+          "borderWidth": "0px",
+          "shadow": "none"
+        }
+      ],
+      "mapText": "Abrir en Google Maps"
+    },
+    {
+      "width": 600,
+      "pageWidth": 600,
+      "titleColor": "rgb(15, 51, 99)",
+      "titleWeight": "700",
+      "aboveLogos": 32,
+      "belowLogos": 32,
+      "logoCount": 12,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "borderWidth": "0px",
+          "shadow": "none"
+        },
+        {
+          "selector": ".contact .map",
+          "borderWidth": "0px",
+          "shadow": "none"
+        }
+      ],
+      "mapText": "Abrir en Google Maps"
+    },
+    {
+      "width": 768,
+      "pageWidth": 768,
+      "titleColor": "rgb(15, 51, 99)",
+      "titleWeight": "700",
+      "aboveLogos": 32,
+      "belowLogos": 32,
+      "logoCount": 12,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "borderWidth": "0px",
+          "shadow": "none"
+        },
+        {
+          "selector": ".contact .map",
+          "borderWidth": "0px",
+          "shadow": "none"
+        }
+      ],
+      "mapText": "Abrir en Google Maps"
+    },
+    {
+      "width": 1024,
+      "pageWidth": 1024,
+      "titleColor": "rgb(15, 51, 99)",
+      "titleWeight": "700",
+      "aboveLogos": 40.953125,
+      "belowLogos": 40.953125,
+      "logoCount": 12,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "borderWidth": "0px",
+          "shadow": "none"
+        },
+        {
+          "selector": ".contact .map",
+          "borderWidth": "0px",
+          "shadow": "none"
+        }
+      ],
+      "mapText": "Abrir en Google Maps"
+    },
+    {
+      "width": 1440,
+      "pageWidth": 1440,
+      "titleColor": "rgb(15, 51, 99)",
+      "titleWeight": "700",
+      "aboveLogos": 57.59375,
+      "belowLogos": 57.59375,
+      "logoCount": 12,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "borderWidth": "0px",
+          "shadow": "none"
+        },
+        {
+          "selector": ".contact .map",
+          "borderWidth": "0px",
+          "shadow": "none"
+        }
+      ],
+      "mapText": "Abrir en Google Maps"
+    },
+    {
+      "width": 1894,
+      "pageWidth": 1894,
+      "titleColor": "rgb(15, 51, 99)",
+      "titleWeight": "700",
+      "aboveLogos": 64,
+      "belowLogos": 64,
+      "logoCount": 12,
+      "cards": [
+        {
+          "selector": ".contact .social-box",
+          "borderWidth": "0px",
+          "shadow": "none"
+        },
+        {
+          "selector": ".contact .map",
+          "borderWidth": "0px",
+          "shadow": "none"
+        }
+      ],
+      "mapText": "Abrir en Google Maps"
+    }
+  ],
+  "errors": [],
+  "focus": {
+    "outlineWidth": "3px",
+    "outlineColor": "rgb(188, 66, 101)",
+    "href": "https://www.google.com/maps/search/?api=1&query=Neuqu%C3%A9n%2C+Argentina"
+  },
+  "zoom": {
+    "width": 720,
+    "pageWidth": 720
+  }
+}

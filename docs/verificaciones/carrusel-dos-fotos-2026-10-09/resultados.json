@@ -1,0 +1,413 @@
+{
+  "sizes": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 390.65625,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 284,
+      "galleryWidth": 284
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 600,
+      "scrollWidth": 600,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 764,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 564,
+      "galleryWidth": 564
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 988,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 732,
+      "galleryWidth": 732
+    },
+    {
+      "width": 800,
+      "scrollWidth": 800,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 1030.65625,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 764,
+      "galleryWidth": 764
+    },
+    {
+      "width": 801,
+      "scrollWidth": 801,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 280.875,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 765,
+      "galleryWidth": 765
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 362.625,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 983,
+      "galleryWidth": 983
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 378,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 1024,
+      "galleryWidth": 1024
+    },
+    {
+      "width": 1894,
+      "scrollWidth": 1894,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 378,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 1024,
+      "galleryWidth": 1024
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "pages": [
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "1 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "2 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "3 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "4 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "5 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "6 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "7 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "8 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "9 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "10 / 10",
+      "ready": true,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 354,
+      "galleryWidth": 354
+    }
+  ],
+  "wrap": "1 / 10",
+  "previous": "10 / 10",
+  "focusAfterButton": "gallery-prev",
+  "reduced": {
+    "play": "Reproducir fotos",
+    "animation": "none"
+  },
+  "axe390": [],
+  "axe1440": [],
+  "zoom200": {
+    "width": 720,
+    "scrollWidth": 720,
+    "pages": 10,
+    "totalPhotos": 20,
+    "shownPhotos": 2,
+    "galleryHeight": 888,
+    "position": "1 / 10",
+    "ready": true,
+    "quickLinks": 0,
+    "footerHeading": [
+      "Contacto"
+    ],
+    "galleryScrollWidth": 648,
+    "galleryWidth": 648
+  },
+  "menu": "false",
+  "noJS": {
+    "width": 390,
+    "scrollWidth": 390,
+    "pages": 10,
+    "totalPhotos": 20,
+    "shownPhotos": 2,
+    "galleryHeight": 484,
+    "position": "1 / 10",
+    "ready": false,
+    "quickLinks": 0,
+    "footerHeading": [
+      "Contacto"
+    ],
+    "galleryScrollWidth": 3684,
+    "galleryWidth": 354
+  },
+  "nativeArrow": {
+    "scrollLeft": 370,
+    "view": {
+      "width": 390,
+      "scrollWidth": 390,
+      "pages": 10,
+      "totalPhotos": 20,
+      "shownPhotos": 2,
+      "galleryHeight": 484,
+      "position": "1 / 10",
+      "ready": false,
+      "quickLinks": 0,
+      "footerHeading": [
+        "Contacto"
+      ],
+      "galleryScrollWidth": 3684,
+      "galleryWidth": 354
+    }
+  },
+  "file": {
+    "width": 390,
+    "scrollWidth": 390,
+    "pages": 10,
+    "totalPhotos": 20,
+    "shownPhotos": 2,
+    "galleryHeight": 484,
+    "position": "1 / 10",
+    "ready": false,
+    "quickLinks": 0,
+    "footerHeading": [
+      "Contacto"
+    ],
+    "galleryScrollWidth": 3684,
+    "galleryWidth": 354
+  },
+  "fileScrolled": {
+    "scrollLeft": 370,
+    "secondGroupLeft": 18,
+    "gridLeft": 18
+  },
+  "rotation": {
+    "before": "1 / 10",
+    "after": "2 / 10",
+    "focus": "2 / 10",
+    "stopped": "2 / 10"
+  },
+  "photosFontsUnchanged": true,
+  "filePhotoDecode": [
+    {
+      "decoded": true,
+      "width": 1066,
+      "src": "file:///Users/agustindiez/Desktop/consultora/Ceciliarodriguez/Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM.jpeg"
+    },
+    {
+      "decoded": true,
+      "width": 1600,
+      "src": "file:///Users/agustindiez/Desktop/consultora/Ceciliarodriguez/Images/IMA%CC%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell.jpeg"
+    }
+  ]
+}

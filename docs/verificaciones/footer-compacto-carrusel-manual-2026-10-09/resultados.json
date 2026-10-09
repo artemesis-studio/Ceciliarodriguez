@@ -1,0 +1,145 @@
+{
+  "sizes": [
+    {
+      "width": 320,
+      "pageWidth": 320,
+      "controlCenter": 160,
+      "footerWidth": 284,
+      "footerHeight": 465,
+      "logoWidth": 136,
+      "playButtons": 0,
+      "removedPhrase": true,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 390,
+      "pageWidth": 390,
+      "controlCenter": 195,
+      "footerWidth": 354,
+      "footerHeight": 441.90625,
+      "logoWidth": 136,
+      "playButtons": 0,
+      "removedPhrase": true,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 600,
+      "pageWidth": 600,
+      "controlCenter": 300,
+      "footerWidth": 564,
+      "footerHeight": 441.90625,
+      "logoWidth": 136,
+      "playButtons": 0,
+      "removedPhrase": true,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 768,
+      "pageWidth": 768,
+      "controlCenter": 384,
+      "footerWidth": 732,
+      "footerHeight": 418.8125,
+      "logoWidth": 136,
+      "playButtons": 0,
+      "removedPhrase": true,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 801,
+      "pageWidth": 801,
+      "controlCenter": 400.5,
+      "footerWidth": 765,
+      "footerHeight": 268.734375,
+      "logoWidth": 160,
+      "playButtons": 0,
+      "removedPhrase": true,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 1024,
+      "pageWidth": 1024,
+      "controlCenter": 512,
+      "footerWidth": 960,
+      "footerHeight": 268.734375,
+      "logoWidth": 160,
+      "playButtons": 0,
+      "removedPhrase": true,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 1440,
+      "pageWidth": 1440,
+      "controlCenter": 719.984375,
+      "footerWidth": 960,
+      "footerHeight": 268.734375,
+      "logoWidth": 160,
+      "playButtons": 0,
+      "removedPhrase": true,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 1894,
+      "pageWidth": 1894,
+      "controlCenter": 946.984375,
+      "footerWidth": 960,
+      "footerHeight": 268.734375,
+      "logoWidth": 160,
+      "playButtons": 0,
+      "removedPhrase": true,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    }
+  ],
+  "errors": [],
+  "noAutoplay": {
+    "before": "1 / 3",
+    "after": "1 / 3"
+  },
+  "next": "2 / 3",
+  "prev": "1 / 3",
+  "live": "polite",
+  "zoom": {
+    "width": 720,
+    "pageWidth": 720
+  },
+  "fileNext": "2 / 3"
+}

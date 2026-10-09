@@ -1,0 +1,181 @@
+{
+  "widths": [
+    {
+      "width": 320,
+      "body": 320,
+      "document": 320,
+      "serviceColumns": "284px",
+      "navHeight": 157.75
+    },
+    {
+      "width": 390,
+      "body": 390,
+      "document": 390,
+      "serviceColumns": "354px",
+      "navHeight": 85.25
+    },
+    {
+      "width": 600,
+      "body": 600,
+      "document": 600,
+      "serviceColumns": "564px",
+      "navHeight": 85.25
+    },
+    {
+      "width": 700,
+      "body": 700,
+      "document": 700,
+      "serviceColumns": "630px",
+      "navHeight": 88.59375
+    },
+    {
+      "width": 768,
+      "body": 768,
+      "document": 768,
+      "serviceColumns": "329.594px 329.594px",
+      "navHeight": 88.59375
+    },
+    {
+      "width": 800,
+      "body": 800,
+      "document": 800,
+      "serviceColumns": "344px 344px",
+      "navHeight": 88.59375
+    },
+    {
+      "width": 801,
+      "body": 801,
+      "document": 801,
+      "serviceColumns": "344.438px 344.453px",
+      "navHeight": 96.1875
+    },
+    {
+      "width": 1024,
+      "body": 1024,
+      "document": 1024,
+      "serviceColumns": "444.797px 444.797px",
+      "navHeight": 91.484375
+    },
+    {
+      "width": 1440,
+      "body": 1440,
+      "document": 1440,
+      "serviceColumns": "632px 632px",
+      "navHeight": 98.25
+    },
+    {
+      "width": 1894,
+      "body": 1894,
+      "document": 1894,
+      "serviceColumns": "824px 824px",
+      "navHeight": 98.25
+    }
+  ],
+  "content": {
+    "services": 4,
+    "photos": 20,
+    "testimonials": 6,
+    "logos": 12,
+    "organizationsList": 0,
+    "indira": "IndiraCurso grupal",
+    "aboutParagraphs": 12,
+    "brokenImages": [],
+    "alignments": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+    ]
+  },
+  "galleryAuto": {
+    "before": "1 / 3",
+    "after": "2 / 3",
+    "changed": true
+  },
+  "galleryFocus": {
+    "label": "Reproducir fotos",
+    "stopped": true
+  },
+  "galleryControls": {
+    "next": "3 / 3",
+    "previous": "2 / 3"
+  },
+  "serviceChecks": [
+    {
+      "service": "Conferencias",
+      "value": "Me interesa Conferencias. "
+    },
+    {
+      "service": "Curso de Oratoria Grupal",
+      "value": "Me interesa Curso de Oratoria Grupal. "
+    },
+    {
+      "service": "Mentorías 1:1",
+      "value": "Me interesa Mentorías 1:1. "
+    },
+    {
+      "service": "Capacitación para Empresas",
+      "value": "Me interesa Capacitación para Empresas. "
+    }
+  ],
+  "invalid": {
+    "name": "true",
+    "draftHidden": true
+  },
+  "draft": {
+    "href": "https://wa.me/5492995751684?text=Hola%20Cecilia%2C%20soy%20Prueba%20Cecilia.%0AMi%20email%20es%20prueba%40example.com.%0A%0AMe%20interesa%20Conferencias.",
+    "status": "Tu consulta está preparada. Paso 2: abrí WhatsApp para revisarla y enviarla.",
+    "invalidated": true
+  },
+  "menuOpen": "true",
+  "menuClosed": "false",
+  "zoom": {
+    "width": 720,
+    "scrollWidth": 720
+  },
+  "noJS": {
+    "photos": 20,
+    "disabled": true,
+    "controlsHidden": true
+  },
+  "reduced": "Reproducir fotos",
+  "errors": [],
+  "failed": [],
+  "finalVisualPass": {
+    "allGalleryGroupsDecoded": true,
+    "portraitFramingReviewed": true,
+    "aboutLeftAlignmentReviewed": true,
+    "smallViewport320Reviewed": true,
+    "localhostHttpStatus": 200,
+    "pocketLandingHttpStatus": 200
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "sizes": [
+    {
+      "width": 320,
+      "pageWidth": 320,
+      "navHeight": 121.515625,
+      "reserved": 122,
+      "navLogo": {
+        "width": 128,
+        "height": 96.515625
+      },
+      "footerLogoWidth": 256,
+      "heroLogos": 0,
+      "textBrands": 0,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 390,
+      "pageWidth": 390,
+      "navHeight": 121.515625,
+      "reserved": 122,
+      "navLogo": {
+        "width": 128,
+        "height": 96.515625
+      },
+      "footerLogoWidth": 256,
+      "heroLogos": 0,
+      "textBrands": 0,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 600,
+      "pageWidth": 600,
+      "navHeight": 121.515625,
+      "reserved": 122,
+      "navLogo": {
+        "width": 128,
+        "height": 96.515625
+      },
+      "footerLogoWidth": 256,
+      "heroLogos": 0,
+      "textBrands": 0,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 768,
+      "pageWidth": 768,
+      "navHeight": 121.515625,
+      "reserved": 122,
+      "navLogo": {
+        "width": 128,
+        "height": 96.515625
+      },
+      "footerLogoWidth": 256,
+      "heroLogos": 0,
+      "textBrands": 0,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 800,
+      "pageWidth": 800,
+      "navHeight": 121.515625,
+      "reserved": 122,
+      "navLogo": {
+        "width": 128,
+        "height": 96.515625
+      },
+      "footerLogoWidth": 256,
+      "heroLogos": 0,
+      "textBrands": 0,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 801,
+      "pageWidth": 801,
+      "navHeight": 133.578125,
+      "reserved": 134,
+      "navLogo": {
+        "width": 144,
+        "height": 108.578125
+      },
+      "footerLogoWidth": 256,
+      "heroLogos": 0,
+      "textBrands": 0,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 1024,
+      "pageWidth": 1024,
+      "navHeight": 133.578125,
+      "reserved": 134,
+      "navLogo": {
+        "width": 144,
+        "height": 108.578125
+      },
+      "footerLogoWidth": 256,
+      "heroLogos": 0,
+      "textBrands": 0,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 1440,
+      "pageWidth": 1440,
+      "navHeight": 133.578125,
+      "reserved": 134,
+      "navLogo": {
+        "width": 144,
+        "height": 108.578125
+      },
+      "footerLogoWidth": 256,
+      "heroLogos": 0,
+      "textBrands": 0,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "width": 1894,
+      "pageWidth": 1894,
+      "navHeight": 133.578125,
+      "reserved": 134,
+      "navLogo": {
+        "width": 144,
+        "height": 108.578125
+      },
+      "footerLogoWidth": 256,
+      "heroLogos": 0,
+      "textBrands": 0,
+      "footerText": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "brandLink": {
+    "focus": "H1",
+    "text": "Encontrá tu Voz auténtica",
+    "headingTop": 365.046875,
+    "barBottom": 133.578125
+  },
+  "menu": {
+    "expanded": "false",
+    "focus": "Mis Servicios"
+  },
+  "zoom": {
+    "width": 720,
+    "pageWidth": 720,
+    "navHeight": 242.046875,
+    "reserved": 243
+  },
+  "noJS": {
+    "width": 390,
+    "pageWidth": 390,
+    "nav": "sticky",
+    "logos": 2
+  }
+}
