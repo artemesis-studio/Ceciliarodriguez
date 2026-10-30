@@ -8,6 +8,7 @@ from urllib.parse import unquote, urlsplit
 import json
 import re
 import shutil
+import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "dist"
@@ -42,6 +43,9 @@ def resolve(url, parent):
     parts = urlsplit(url)
     if parts.scheme or parts.netloc or not parts.path:
         return None
+    decoded = unquote(parts.path)
+    if decoded != unicodedata.normalize("NFC", decoded):
+        raise ValueError(f"URL must use NFC Unicode normalization: {url}")
     path = (ROOT / unquote(parts.path).lstrip("/") if parts.path.startswith("/")
             else parent / unquote(parts.path)).resolve()
     if not path.is_relative_to(ROOT):
@@ -51,6 +55,12 @@ def resolve(url, parent):
         raise ValueError(f"Not a public asset: {relative}")
     if path.is_symlink() or not path.is_file():
         raise ValueError(f"Missing public asset: {relative}")
+    # macOS can hide case/Unicode mismatches that fail after a Linux checkout.
+    current = ROOT
+    for part in relative.parts:
+        if part not in {unicodedata.normalize("NFC", child.name) for child in current.iterdir()}:
+            raise ValueError(f"Public asset name does not match exactly: {relative}")
+        current = current / part
     return path
 
 
@@ -83,7 +93,7 @@ def build():
         shutil.rmtree(OUTPUT)
     OUTPUT.mkdir()
     for path in sorted(files):
-        destination = OUTPUT / path.relative_to(ROOT)
+        destination = OUTPUT / unicodedata.normalize("NFC", str(path.relative_to(ROOT)))
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(path, destination)
     # Common static-host format; verify support on the chosen hosting provider.

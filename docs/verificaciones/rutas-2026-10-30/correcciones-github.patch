@@ -1,0 +1,158 @@
+--- a/index.html
++++ b/index.html
+@@ -9,7 +9,7 @@
+       content="Cecilia Rodríguez. Oratoria y comunicación humana: conferencias, cursos grupales, mentorías 1 a 1 y capacitación para empresas."
+     />
+     <title>Cecilia Rodríguez · Oratoria y comunicación humana</title>
+-    <link rel="preload" as="image" href="Images/header-iamgen.jpg" fetchpriority="high" />
++    <link rel="preload" as="image" href="Images/imagen_header-cecilia.jpg" fetchpriority="high" />
+     <link
+       rel="preload"
+       href="assets/fonts/montserrat-latin.woff2"
+@@ -69,7 +69,7 @@
+       </div>
+       <img
+         class="hero-image"
+-        src="Images/header-iamgen.jpg"
++        src="Images/imagen_header-cecilia.jpg"
+         width="1080"
+         height="720"
+         fetchpriority="high"
+@@ -724,30 +724,30 @@
+             </div>
+             <div class="gallery-grid" id="gallery-grid" role="group" aria-label="Fotos de clases y encuentros" tabindex="0">
+               <div class="gallery-page" role="group" aria-roledescription="grupo de fotos" aria-label="1 de 3">
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM.jpeg" width="1066" height="1600" loading="lazy" decoding="async" alt="Cecilia hablando con un micrófono sobre el escenario" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell.jpeg" width="1600" height="900" loading="lazy" decoding="async" alt="Cecilia con un grupo en la capacitación de La Colonia Shell" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11.jpeg" width="1600" height="900" loading="lazy" decoding="async" alt="Grupo de participantes al finalizar una capacitación" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59.jpeg" width="1600" height="900" loading="lazy" decoding="async" alt="Cecilia dando una clase frente a un grupo" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/Mentori%CC%81a%20Individual%201-1%20-%20Diego%20Manfio.jpeg" width="1200" height="1600" loading="lazy" decoding="async" alt="Cecilia junto a Diego Manfio en una mentoría individual" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM.jpeg" width="1600" height="1066" loading="lazy" decoding="async" alt="Cecilia con participantes en un encuentro de Conectando Vaca Muerta" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/foto.png" width="856" height="855" loading="lazy" decoding="async" alt="Cecilia en una sesión de comunicación online" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM.jpeg" width="1066" height="1600" loading="lazy" decoding="async" alt="Cecilia hablando con un micrófono sobre el escenario" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell.jpeg" width="1600" height="900" loading="lazy" decoding="async" alt="Cecilia con un grupo en la capacitación de La Colonia Shell" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11.jpeg" width="1600" height="900" loading="lazy" decoding="async" alt="Grupo de participantes al finalizar una capacitación" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59.jpeg" width="1600" height="900" loading="lazy" decoding="async" alt="Cecilia dando una clase frente a un grupo" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio.jpeg" width="1200" height="1600" loading="lazy" decoding="async" alt="Cecilia junto a Diego Manfio en una mentoría individual" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM.jpeg" width="1600" height="1066" loading="lazy" decoding="async" alt="Cecilia con participantes en un encuentro de Conectando Vaca Muerta" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/foto.png" width="856" height="855" loading="lazy" decoding="async" alt="Cecilia en una sesión de comunicación online" /></div>
+               </div>
+               <div class="gallery-page" role="group" aria-roledescription="grupo de fotos" aria-label="2 de 3">
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/DSC07391.jpg.jpeg" width="2624" height="3936" loading="lazy" decoding="async" alt="Cecilia Rodríguez en un encuentro de comunicación" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuque%CC%81n.jpeg" width="960" height="1280" loading="lazy" decoding="async" alt="Encuentro de capacitación con el equipo de la Clínica Dra. Urcera en Neuquén" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/DSC09217%20copy.jpg" width="4240" height="2832" loading="lazy" decoding="async" alt="Cecilia en una conversación con un grupo en un estudio" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR.jpg" width="3072" height="4096" loading="lazy" decoding="async" alt="Cecilia junto a un colega en un estudio de radio" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3.png" width="1248" height="832" loading="lazy" decoding="async" alt="Cecilia frente al micrófono en un estudio de podcast" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnolo%CC%81gico%2C%20Nqn%202.jpeg" width="1204" height="1600" loading="lazy" decoding="async" alt="Sala del Polo Tecnológico de Neuquén antes de una capacitación" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnolo%CC%81gico%2C%20Nqn.jpeg" width="960" height="1280" loading="lazy" decoding="async" alt="Presentación y materiales para una capacitación en el Polo Tecnológico de Neuquén" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg.jpeg" width="2624" height="3936" loading="lazy" decoding="async" alt="Cecilia Rodríguez en un encuentro de comunicación" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n.jpeg" width="960" height="1280" loading="lazy" decoding="async" alt="Encuentro de capacitación con el equipo de la Clínica Dra. Urcera en Neuquén" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy.jpg" width="4240" height="2832" loading="lazy" decoding="async" alt="Cecilia en una conversación con un grupo en un estudio" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR.jpg" width="3072" height="4096" loading="lazy" decoding="async" alt="Cecilia junto a un colega en un estudio de radio" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3.png" width="1248" height="832" loading="lazy" decoding="async" alt="Cecilia frente al micrófono en un estudio de podcast" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202.jpeg" width="1204" height="1600" loading="lazy" decoding="async" alt="Sala del Polo Tecnológico de Neuquén antes de una capacitación" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn.jpeg" width="960" height="1280" loading="lazy" decoding="async" alt="Presentación y materiales para una capacitación en el Polo Tecnológico de Neuquén" /></div>
+               </div>
+               <div class="gallery-page" role="group" aria-roledescription="grupo de fotos" aria-label="3 de 3">
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04.jpeg" width="1152" height="1536" loading="lazy" decoding="async" alt="Retrato de Cecilia Rodríguez" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02.jpeg" width="848" height="1264" loading="lazy" decoding="async" alt="Cecilia en un espacio de conversación" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20%282%29.jpeg" width="848" height="1264" loading="lazy" decoding="async" alt="Cecilia Rodríguez durante una jornada de trabajo" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/DSC04204.jpg" width="2505" height="3758" loading="lazy" decoding="async" alt="Retrato de Cecilia Rodríguez en una entrevista" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/Conferencias.jpeg" width="1204" height="1600" loading="lazy" decoding="async" alt="Auditorio preparado para una conferencia" /></div>
+-                <div class="gallery-item"><img src="Images/IMA%CC%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20%281%29.jpeg" width="1600" height="1066" loading="lazy" decoding="async" alt="Público en un evento de comunicación" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04.jpeg" width="1152" height="1536" loading="lazy" decoding="async" alt="Retrato de Cecilia Rodríguez" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02.jpeg" width="848" height="1264" loading="lazy" decoding="async" alt="Cecilia en un espacio de conversación" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2).jpeg" width="848" height="1264" loading="lazy" decoding="async" alt="Cecilia Rodríguez durante una jornada de trabajo" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/DSC04204.jpg" width="2505" height="3758" loading="lazy" decoding="async" alt="Retrato de Cecilia Rodríguez en una entrevista" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/Conferencias.jpeg" width="1204" height="1600" loading="lazy" decoding="async" alt="Auditorio preparado para una conferencia" /></div>
++                <div class="gallery-item"><img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1).jpeg" width="1600" height="1066" loading="lazy" decoding="async" alt="Público en un evento de comunicación" /></div>
+               </div>
+             </div>
+             <p class="gallery-hint">Deslizá hacia los lados para ver más fotos.</p>
+--- a/tools/build_site.py
++++ b/tools/build_site.py
+@@ -8,6 +8,7 @@
+ import json
+ import re
+ import shutil
++import unicodedata
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+ OUTPUT = ROOT / "dist"
+@@ -42,6 +43,9 @@
+     parts = urlsplit(url)
+     if parts.scheme or parts.netloc or not parts.path:
+         return None
++    decoded = unquote(parts.path)
++    if decoded != unicodedata.normalize("NFC", decoded):
++        raise ValueError(f"URL must use NFC Unicode normalization: {url}")
+     path = (ROOT / unquote(parts.path).lstrip("/") if parts.path.startswith("/")
+             else parent / unquote(parts.path)).resolve()
+     if not path.is_relative_to(ROOT):
+@@ -51,6 +55,13 @@
+         raise ValueError(f"Not a public asset: {relative}")
+     if path.is_symlink() or not path.is_file():
+         raise ValueError(f"Missing public asset: {relative}")
++
++    # macOS can hide case/Unicode mismatches that fail after a Linux checkout.
++    current = ROOT
++    for part in relative.parts:
++        if part not in {unicodedata.normalize("NFC", child.name) for child in current.iterdir()}:
++            raise ValueError(f"Public asset name does not match exactly: {relative}")
++        current = current / part
+     return path
+ 
+ 
+@@ -83,7 +94,7 @@
+         shutil.rmtree(OUTPUT)
+     OUTPUT.mkdir()
+     for path in sorted(files):
+-        destination = OUTPUT / path.relative_to(ROOT)
++        destination = OUTPUT / unicodedata.normalize("NFC", str(path.relative_to(ROOT)))
+         destination.parent.mkdir(parents=True, exist_ok=True)
+         shutil.copyfile(path, destination)
+     # Common static-host format; verify support on the chosen hosting provider.
+--- /dev/null
++++ b/tools/test_build_site.py
+@@ -0,0 +1,41 @@
++"""Regression checks for resource names on macOS and Linux."""
++import tempfile
++import unittest
++from pathlib import Path
++from unittest.mock import patch
++
++import build_site
++
++
++class PortableAssetTests(unittest.TestCase):
++    def setUp(self):
++        self.temp = tempfile.TemporaryDirectory()
++        self.addCleanup(self.temp.cleanup)
++        self.root = Path(self.temp.name).resolve()
++        self.images = self.root / "Images"
++        self.images.mkdir()
++        (self.images / "Fotografía.jpg").write_bytes(b"fixture")
++        self.scope = patch.multiple(build_site, ROOT=self.root, OUTPUT=self.root / "dist")
++        self.scope.start()
++        self.addCleanup(self.scope.stop)
++
++    def test_nfc_url_matches_resource(self):
++        self.assertTrue(build_site.resolve("Images/Fotograf%C3%ADa.jpg", self.root).is_file())
++
++    def test_decomposed_accent_is_rejected(self):
++        with self.assertRaisesRegex(ValueError, "NFC"):
++            build_site.resolve("Images/Fotografi%CC%81a.jpg", self.root)
++
++    def test_wrong_case_is_rejected(self):
++        with self.assertRaises(ValueError):
++            build_site.resolve("Images/fotograf%C3%ADa.jpg", self.root)
++
++    def test_build_uses_portable_names(self):
++        (self.root / "index.html").write_text('<img src="Images/Fotograf%C3%ADa.jpg">')
++        build_site.build()
++        self.assertTrue((self.root / "dist/Images/Fotografía.jpg").is_file())
++        self.assertEqual((self.root / "dist/Images/Fotografía.jpg").read_bytes(), b"fixture")
++
++
++if __name__ == "__main__":
++    unittest.main()

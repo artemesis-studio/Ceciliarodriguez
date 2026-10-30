@@ -2,6 +2,10 @@
 
 Ejecutar desde la raíz: `python3 tools/build_site.py`.
 
+El armado exige rutas Unicode NFC y nombres con mayúsculas exactas para que el paquete también funcione en Linux. Pruebas de regresión: `python3 -m unittest discover -s tools -p test_build_site.py`.
+
+Para regenerar las copias responsive después de reemplazar una fotografía: `python3 tools/optimize_images.py`. El comando mantiene cada original, crea WebP y AVIF en anchos adecuados y actualiza `index.html` con `<picture>`, `srcset` y `sizes`. Luego volver a generar `dist/`.
+
 Publicar **solo `dist/`**. El comando reemplaza esa carpeta generada tras validar referencias; no cambia las fotografías ni otros originales. Incluye los recursos referenciados y las licencias de fuentes; excluye Git, informes, instrucciones internas y el libro con licencia.
 
 `dist/_headers` es una propuesta de encabezados para proveedores que admiten ese formato. Comprobar su aplicación real al elegir hosting; para otros servidores traducir las reglas. Configurar HTTPS y compresión allí. No ejecutar el servidor Python de pruebas como servidor de producción.
