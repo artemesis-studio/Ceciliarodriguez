@@ -1,0 +1,71 @@
+/* Recursos y ajustes solicitados el 4 de noviembre de 2026. */
+.header .hero-image { aspect-ratio: 1; object-fit: contain; object-position: center; }
+.header .hero-copy h1 .hero-title-first { display: block; font: inherit; color: inherit; }
+.header .hero-copy h1 .hero-title-second { display: block; }
+.services-banner { max-inline-size: 90rem; margin-inline: auto; }
+.services-banner img { display: block; inline-size: 100%; block-size: auto; }
+.benefits { background: var(--blue); color: #fff; }
+.benefits :is(h3, p) { color: var(--blue); }
+.benefits .round-icon { background: var(--blue); color: #fff; }
+.approach .round-icon { inline-size: 5rem; block-size: 5rem; padding: 0.85rem; background: #fff; border-radius: 1rem; }
+.approach .round-icon img { display: block; inline-size: 100%; block-size: 100%; object-fit: contain; }
+.pocket-card { gap: 0; }
+.pocket-card > picture { display: block; inline-size: calc(100% + 3.5rem); max-inline-size: none; margin: -1.75rem -1.75rem 1.5rem; }
+.pocket-card .pocket-cover { display: block; inline-size: 100%; block-size: auto; aspect-ratio: 5 / 4; border-radius: 1.5rem 1.5rem 0 0; }
+.additional-socials { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1rem; margin-block-start: 1rem; }
+.additional-socials a { display: inline-flex; align-items: center; min-block-size: 44px; color: var(--blue); font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+.additional-socials a:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+/* Restrained deceleration inspired by Material motion and Apple HIG. */
+:root { --motion-settle: cubic-bezier(0.16, 1, 0.3, 1); }
+.reveal-card, .button { translate: 0 0; }
+@media (prefers-reduced-motion: no-preference) {
+  .motion-ready:not(.motion-minimal) .header .hero-copy h1 { animation: none; }
+  .motion-ready:not(.motion-minimal) .header .hero-copy h1 .hero-title-first { animation: hero-enter 620ms var(--motion-settle) 60ms both; }
+  .motion-ready:not(.motion-minimal) .header .hero-copy h1 .hero-title-second { animation: hero-enter 620ms var(--motion-settle) 240ms both; }
+  .motion-ready:not(.motion-minimal) .reveal-card.is-visible { animation: card-enter 560ms var(--motion-settle) both; }
+  .motion-ready:not(.motion-minimal) .reveal-card.is-visible:nth-child(3n + 2) { animation-delay: 60ms; }
+  .motion-ready:not(.motion-minimal) .reveal-card.is-visible:nth-child(3n) { animation-delay: 120ms; }
+  .reveal-card { transition: translate 220ms var(--motion-settle), box-shadow 220ms ease-out; }
+  .button { transition: translate 180ms var(--motion-settle), box-shadow 180ms ease-out, background-color 180ms ease-out; }
+  @media (hover: hover) and (pointer: fine) {
+    .motion-ready:not(.motion-minimal) .reveal-card:hover { translate: 0 -4px; box-shadow: 0 10px 24px #0f33631a; }
+    .button:hover { translate: 0 -2px; }
+    .button:active { translate: 0 0; }
+  }
+}
+@keyframes card-enter {
+  from { opacity: 0.35; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 1000px) {
+  .pocket-card > picture { inline-size: calc(100% + 2.5rem); margin: -1.25rem -1.25rem 1.25rem; }
+}
+@media (max-width: 600px) {
+  /* Keep the supplied banner uncropped and offer readable text below it. */
+  .services-banner { background: #f5f5f5; }
+}
+.banner-caption { position: absolute; inline-size: 1px; block-size: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 600px) {
+  .banner-caption { position: static; inline-size: auto; block-size: auto; margin: 0; padding: 1.25rem; overflow: visible; clip-path: none; white-space: normal; font-size: 1rem; line-height: 1.6; color: var(--blue); }
+  .banner-caption strong { display: block; margin-block-start: 0.5rem; }
+}
+/* Preserve complete photographs, including faces at the edge of the frame. */
+.gallery-page { grid-template-columns: repeat(3, minmax(0, 1fr)); aspect-ratio: 1.8; }
+.gallery .gallery-page .gallery-item:first-child,
+.gallery .gallery-page .gallery-item:last-child:nth-child(6) { grid-row: auto; grid-column: auto; }
+.gallery .gallery-item { background: #eef3f9; }
+.gallery .gallery-item img { object-fit: contain; object-position: center; }
+.gallery-page:last-child { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 800px) {
+  .gallery-page { grid-template-columns: repeat(2, minmax(0, 1fr)); aspect-ratio: auto; }
+  .gallery .gallery-page .gallery-item,
+  .gallery .gallery-page .gallery-item:first-child { aspect-ratio: 0.85; }
+}
+.gallery-page,
+.gallery-page:last-child { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: minmax(0, 1fr); aspect-ratio: 1.8; }
+@media (max-width: 600px) {
+  .gallery-page,
+  .gallery-page:last-child { grid-template-columns: 1fr; grid-template-rows: auto; aspect-ratio: auto; }
+  .gallery .gallery-page .gallery-item,
+  .gallery .gallery-page .gallery-item:first-child { aspect-ratio: 1; }
+}

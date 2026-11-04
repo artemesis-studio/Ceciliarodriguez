@@ -1,0 +1,5 @@
+Cambios locales del 4 de noviembre de 2026. Ver `resultados.json` y capturas de inicio, beneficios, enfoque, Pocket y galería (390/1440). Las capturas completas web-* corresponden al primer recorrido; las capturas por sección reflejan el encuadre final completo de galería. Las barras fijas pueden aparecer superpuestas en capturas de elementos al hacer scroll.
+
+Consulta editorial: la selección de galería aportada incluye salas vacías y retratos, además de clases y escenarios; se usaron sus 16 fotos por instrucción de tomar esa carpeta como selección. El archivo extra de Sobre mí queda sin conectar porque no se solicitó cambiar esa foto.
+
+Comprobaciones: ocho anchos sin desborde, imágenes decodificadas, cero errores de página, movimiento reducido sin animación de título, texto al 200 % y alternativa sin JavaScript. Carrusel manual probado 1→2→3→1, menú móvil/Escape, interés Conferencias y newsletter desactivado. Herramienta de construcción ejecutada con éxito. No publicación ni mensajes enviados.

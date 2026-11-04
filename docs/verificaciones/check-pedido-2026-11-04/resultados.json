@@ -1,0 +1,245 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "hero": "Images/actualizacion-2026-11/portada.jpg",
+      "heroPosition": "50% 50%",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ],
+      "gallery": [
+        "Images/actualizacion-2026-11/galeria-1.png",
+        "Images/actualizacion-2026-11/galeria-2.png",
+        "Images/actualizacion-2026-11/galeria-8.png",
+        "Images/actualizacion-2026-11/galeria-14.jpeg"
+      ],
+      "pocket": 3,
+      "bannerOrder": "services-banner",
+      "blue": "rgb(15, 51, 99)",
+      "icons": 3,
+      "title": "Escenarios y\nexperiencias",
+      "failed": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "hero": "Images/actualizacion-2026-11/portada.jpg",
+      "heroPosition": "50% 50%",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ],
+      "gallery": [
+        "Images/actualizacion-2026-11/galeria-1.png",
+        "Images/actualizacion-2026-11/galeria-2.png",
+        "Images/actualizacion-2026-11/galeria-8.png",
+        "Images/actualizacion-2026-11/galeria-14.jpeg"
+      ],
+      "pocket": 3,
+      "bannerOrder": "services-banner",
+      "blue": "rgb(15, 51, 99)",
+      "icons": 3,
+      "title": "Escenarios y\nexperiencias",
+      "failed": []
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "hero": "Images/actualizacion-2026-11/portada.jpg",
+      "heroPosition": "50% 50%",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ],
+      "gallery": [
+        "Images/actualizacion-2026-11/galeria-1.png",
+        "Images/actualizacion-2026-11/galeria-2.png",
+        "Images/actualizacion-2026-11/galeria-8.png",
+        "Images/actualizacion-2026-11/galeria-14.jpeg"
+      ],
+      "pocket": 3,
+      "bannerOrder": "services-banner",
+      "blue": "rgb(15, 51, 99)",
+      "icons": 3,
+      "title": "Escenarios y\nexperiencias",
+      "failed": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "hero": "Images/actualizacion-2026-11/portada.jpg",
+      "heroPosition": "50% 50%",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ],
+      "gallery": [
+        "Images/actualizacion-2026-11/galeria-1.png",
+        "Images/actualizacion-2026-11/galeria-2.png",
+        "Images/actualizacion-2026-11/galeria-8.png",
+        "Images/actualizacion-2026-11/galeria-14.jpeg"
+      ],
+      "pocket": 3,
+      "bannerOrder": "services-banner",
+      "blue": "rgb(15, 51, 99)",
+      "icons": 3,
+      "title": "Escenarios y\nexperiencias",
+      "failed": []
+    },
+    {
+      "width": 801,
+      "overflow": false,
+      "hero": "Images/actualizacion-2026-11/portada.jpg",
+      "heroPosition": "50% 50%",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ],
+      "gallery": [
+        "Images/actualizacion-2026-11/galeria-1.png",
+        "Images/actualizacion-2026-11/galeria-2.png",
+        "Images/actualizacion-2026-11/galeria-8.png",
+        "Images/actualizacion-2026-11/galeria-14.jpeg"
+      ],
+      "pocket": 3,
+      "bannerOrder": "services-banner",
+      "blue": "rgb(15, 51, 99)",
+      "icons": 3,
+      "title": "Escenarios y\nexperiencias",
+      "failed": []
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "hero": "Images/actualizacion-2026-11/portada.jpg",
+      "heroPosition": "50% 50%",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ],
+      "gallery": [
+        "Images/actualizacion-2026-11/galeria-1.png",
+        "Images/actualizacion-2026-11/galeria-2.png",
+        "Images/actualizacion-2026-11/galeria-8.png",
+        "Images/actualizacion-2026-11/galeria-14.jpeg"
+      ],
+      "pocket": 3,
+      "bannerOrder": "services-banner",
+      "blue": "rgb(15, 51, 99)",
+      "icons": 3,
+      "title": "Escenarios y\nexperiencias",
+      "failed": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "hero": "Images/actualizacion-2026-11/portada.jpg",
+      "heroPosition": "50% 50%",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ],
+      "gallery": [
+        "Images/actualizacion-2026-11/galeria-1.png",
+        "Images/actualizacion-2026-11/galeria-2.png",
+        "Images/actualizacion-2026-11/galeria-8.png",
+        "Images/actualizacion-2026-11/galeria-14.jpeg"
+      ],
+      "pocket": 3,
+      "bannerOrder": "services-banner",
+      "blue": "rgb(15, 51, 99)",
+      "icons": 3,
+      "title": "Escenarios y\nexperiencias",
+      "failed": []
+    },
+    {
+      "width": 1894,
+      "overflow": false,
+      "hero": "Images/actualizacion-2026-11/portada.jpg",
+      "heroPosition": "50% 50%",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ],
+      "gallery": [
+        "Images/actualizacion-2026-11/galeria-1.png",
+        "Images/actualizacion-2026-11/galeria-2.png",
+        "Images/actualizacion-2026-11/galeria-8.png",
+        "Images/actualizacion-2026-11/galeria-14.jpeg"
+      ],
+      "pocket": 3,
+      "bannerOrder": "services-banner",
+      "blue": "rgb(15, 51, 99)",
+      "icons": 3,
+      "title": "Escenarios y\nexperiencias",
+      "failed": []
+    }
+  ],
+  "errors": [],
+  "titleMotion": [
+    {
+      "animation": "hero-enter",
+      "delay": "0.06s",
+      "duration": "0.62s"
+    },
+    {
+      "animation": "hero-enter",
+      "delay": "0.24s",
+      "duration": "0.62s"
+    }
+  ],
+  "cardEntry": {
+    "name": "card-enter",
+    "duration": "0.56s"
+  },
+  "cardHover": "0px -4px",
+  "buttonHover": "0px -2px",
+  "reducedMotion": {
+    "title": [
+      "none",
+      "none"
+    ],
+    "card": "none",
+    "translate": "0px"
+  },
+  "preferenceRestored": true,
+  "text200NoOverflow": true,
+  "noJS": {
+    "overflow": false,
+    "cards": true
+  }
+}

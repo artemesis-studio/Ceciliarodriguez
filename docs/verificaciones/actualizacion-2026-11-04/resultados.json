@@ -1,0 +1,142 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "gallery": 16,
+      "pocket": 3,
+      "benefitsBackground": "rgb(15, 51, 99)",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "images": [],
+      "gallery": 16,
+      "pocket": 3,
+      "benefitsBackground": "rgb(15, 51, 99)",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ]
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "images": [],
+      "gallery": 16,
+      "pocket": 3,
+      "benefitsBackground": "rgb(15, 51, 99)",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ]
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "images": [],
+      "gallery": 16,
+      "pocket": 3,
+      "benefitsBackground": "rgb(15, 51, 99)",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ]
+    },
+    {
+      "width": 801,
+      "overflow": false,
+      "images": [],
+      "gallery": 16,
+      "pocket": 3,
+      "benefitsBackground": "rgb(15, 51, 99)",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ]
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "images": [],
+      "gallery": 16,
+      "pocket": 3,
+      "benefitsBackground": "rgb(15, 51, 99)",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ]
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "gallery": 16,
+      "pocket": 3,
+      "benefitsBackground": "rgb(15, 51, 99)",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ]
+    },
+    {
+      "width": 1894,
+      "overflow": false,
+      "images": [],
+      "gallery": 16,
+      "pocket": 3,
+      "benefitsBackground": "rgb(15, 51, 99)",
+      "testimonials": [
+        "Ana\nCurso grupal",
+        "Silvana\nCurso grupal",
+        "Soraya\nCapacitación para empresas",
+        "Mario\nCapacitación para empresas",
+        "Lara\nCurso grupal online",
+        "Indira\nCurso grupal"
+      ]
+    }
+  ],
+  "errors": [],
+  "reducedMotionTitleAnimations": [
+    "none",
+    "none"
+  ],
+  "text200NoOverflow": true,
+  "noJS": {
+    "overflow": false,
+    "cards": 3
+  }
+}

@@ -9,7 +9,7 @@
       content="Cecilia Rodríguez. Oratoria y comunicación humana: conferencias, cursos grupales, mentorías 1 a 1 y capacitación para empresas."
     />
     <title>Cecilia Rodríguez · Oratoria y comunicación humana</title>
-    <link rel="preload" as="image" href="Images/imagen_header-cecilia.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="Images/actualizacion-2026-11/portada-800w.webp" imagesrcset="Images/actualizacion-2026-11/portada-480w.webp 480w, Images/actualizacion-2026-11/portada-800w.webp 800w, Images/actualizacion-2026-11/portada-1024w.webp 1024w" imagesizes="(max-width: 800px) 90vw, 45vw" fetchpriority="high" />
     <link
       rel="preload"
       href="assets/fonts/montserrat-latin.woff2"
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="styles/redesign.css" />
     <link rel="stylesheet" href="styles/corrections.css" />
     <link rel="stylesheet" href="styles/navigation-presentation.css" />
+    <link rel="stylesheet" href="styles/actualizacion-noviembre.css" />
     <link rel="preload" as="script" href="scripts/components/navigation.js?v=presentation-2" />
     <link rel="preload" as="script" href="scripts/components/gallery.js" />
     <script type="module" src="scripts/main.js?v=presentation-1"></script>
@@ -65,7 +66,7 @@
     <header class="header" id="inicio">
       <div class="hero-copy">
         <p class="hero-offer">Conferencias · Cursos grupales · Mentorías 1 a 1 · Capacitación para empresas</p>
-        <h1>Encontrá tu <span>Voz auténtica</span></h1>
+        <h1><span class="hero-title-first">Encontrá tu</span> <span class="hero-title-second">Voz auténtica</span></h1>
         <p>
           No se trata solo de hablar mejor. Se trata de animarte a ocupar tu
           lugar.
@@ -75,14 +76,11 @@
           ><a class="button button-white" href="#servicios">Mis servicios</a>
         </div>
       </div>
-      <img
-        class="hero-image"
-        src="Images/imagen_header-cecilia.jpg"
-        width="1024"
-        height="1536"
-        fetchpriority="high"
-        alt="Cecilia Rodríguez hablando con un micrófono en un escenario"
-      /><a class="scroll-cue" href="#servicios" aria-label="Ver mis servicios"
+      <picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/portada-480w.avif 480w, Images/actualizacion-2026-11/portada-800w.avif 800w, Images/actualizacion-2026-11/portada-1024w.avif 1024w" sizes="(max-width: 800px) 90vw, 45vw" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/portada-480w.webp 480w, Images/actualizacion-2026-11/portada-800w.webp 800w, Images/actualizacion-2026-11/portada-1024w.webp 1024w" sizes="(max-width: 800px) 90vw, 45vw" />
+          <img src="Images/actualizacion-2026-11/portada.jpg" width="1024" height="1024" alt="Cecilia Rodríguez hablando con un micrófono en un escenario" class="hero-image" fetchpriority="high" data-responsive="true" srcset="Images/actualizacion-2026-11/portada-480w.webp 480w, Images/actualizacion-2026-11/portada-800w.webp 800w, Images/actualizacion-2026-11/portada-1024w.webp 1024w" sizes="(max-width: 800px) 90vw, 45vw" />
+        </picture><a class="scroll-cue" href="#servicios" aria-label="Ver mis servicios"
         ><span></span
       ></a>
     </header>
@@ -392,6 +390,11 @@
           </div>
         </div>
       </section>
+      <div class="services-banner"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/banner-480w.avif 480w, Images/actualizacion-2026-11/banner-800w.avif 800w, Images/actualizacion-2026-11/banner-1200w.avif 1200w, Images/actualizacion-2026-11/banner-1440w.avif 1440w" sizes="(max-width: 1440px) 100vw, 1440px" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/banner-480w.webp 480w, Images/actualizacion-2026-11/banner-800w.webp 800w, Images/actualizacion-2026-11/banner-1200w.webp 1200w, Images/actualizacion-2026-11/banner-1440w.webp 1440w" sizes="(max-width: 1440px) 100vw, 1440px" />
+          <img src="Images/actualizacion-2026-11/banner.png" width="1440" height="400" alt="" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/banner-480w.webp 480w, Images/actualizacion-2026-11/banner-800w.webp 800w, Images/actualizacion-2026-11/banner-1200w.webp 1200w, Images/actualizacion-2026-11/banner-1440w.webp 1440w" sizes="(max-width: 1440px) 100vw, 1440px" />
+        </picture><p class="banner-caption">No es que no tengas algo importante para decir. Es que nadie te enseñó a sostener tu voz. <strong>La seguridad no se improvisa, se entrena.</strong></p></div>
       <section class="benefits section" aria-label="Cómo te acompaño">
         <div class="container three-grid">
           <article class="benefit-card">
@@ -587,20 +590,11 @@
           </p>
           <div class="three-grid">
             <article class="approach-card">
-              <span class="round-icon"
-                ><svg
-                  class="icon"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  aria-hidden="true"
-                >
-                  <circle cx="12" cy="5" r="2" />
-                  <path d="m5 9 7 3 7-3M12 12v5m0 0-4 5m4-5 4 5" /></svg
-              ></span>
+              <span class="round-icon"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/presencia-480w.avif 480w, Images/actualizacion-2026-11/presencia-512w.avif 512w" sizes="64px" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/presencia-480w.webp 480w, Images/actualizacion-2026-11/presencia-512w.webp 512w" sizes="64px" />
+          <img src="Images/actualizacion-2026-11/presencia.png" width="512" height="512" alt="" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/presencia-480w.webp 480w, Images/actualizacion-2026-11/presencia-512w.webp 512w" sizes="64px" />
+        </picture></span>
               <h3>Presencia</h3>
               <p>
                 Comunicar comienza por estar presente. Habitar el cuerpo,
@@ -612,20 +606,11 @@
               </p>
             </article>
             <article class="approach-card">
-              <span class="round-icon"
-                ><svg
-                  class="icon"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  aria-hidden="true"
-                >
-                  <rect x="9" y="2" width="6" height="13" rx="3" />
-                  <path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3m-4 0h8" /></svg
-              ></span>
+              <span class="round-icon"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/tecnica-480w.avif 480w, Images/actualizacion-2026-11/tecnica-512w.avif 512w" sizes="64px" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/tecnica-480w.webp 480w, Images/actualizacion-2026-11/tecnica-512w.webp 512w" sizes="64px" />
+          <img src="Images/actualizacion-2026-11/tecnica.png" width="512" height="512" alt="" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/tecnica-480w.webp 480w, Images/actualizacion-2026-11/tecnica-512w.webp 512w" sizes="64px" />
+        </picture></span>
               <h3>Técnica</h3>
               <p>
                 La autenticidad alcanza su mayor potencia cuando encuentra
@@ -637,21 +622,11 @@
               </p>
             </article>
             <article class="approach-card">
-              <span class="round-icon"
-                ><svg
-                  class="icon"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M20 5c-3-3-6 0-8 2-2-2-5-5-8-2-4 4 1 9 8 15 7-6 12-11 8-15Z"
-                  /></svg
-              ></span>
+              <span class="round-icon"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/humanidad-480w.avif 480w, Images/actualizacion-2026-11/humanidad-512w.avif 512w" sizes="64px" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/humanidad-480w.webp 480w, Images/actualizacion-2026-11/humanidad-512w.webp 512w" sizes="64px" />
+          <img src="Images/actualizacion-2026-11/humanidad.png" width="512" height="512" alt="" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/humanidad-480w.webp 480w, Images/actualizacion-2026-11/humanidad-512w.webp 512w" sizes="64px" />
+        </picture></span>
               <h3>Humanidad</h3>
               <p>
                 Toda comunicación es un encuentro. Tomar la palabra implica
@@ -684,12 +659,12 @@
             <figure class="testimonial-card">
               <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 3h7v8c0 7-2 10-7 10v-4c3 0 3-3 3-4H3Zm11 0h7v8c0 7-2 10-7 10v-4c3 0 3-3 3-4h-3Z" /></svg>
               <blockquote>“Gracias Ceci por generar entre nosotros un clima propicio para crecer. Gracias por incentivarnos a que florezca lo mejor. Por permitirnos visibilizarnos desde lo más sincero. Como equipo con el simple objetivo de ser mejores con lo que cada uno/a somos. Gracias.”</blockquote>
-              <figcaption><div><strong>Soraya Jaramillo</strong><span>Capacitación para empresas</span></div></figcaption>
+              <figcaption><div><strong>Soraya</strong><span>Capacitación para empresas</span></div></figcaption>
             </figure>
             <figure class="testimonial-card">
               <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 3h7v8c0 7-2 10-7 10v-4c3 0 3-3 3-4H3Zm11 0h7v8c0 7-2 10-7 10v-4c3 0 3-3 3-4h-3Z" /></svg>
               <blockquote>“Quiero agradecerte Ceci por esta capacitación, por darnos el espacio y por toda tu energía. Nos llevamos experiencias y herramientas que nos permitirán avanzar en la comunicación dentro y fuera de nuestro ámbito laboral. Gracias por todo y hasta pronto.”</blockquote>
-              <figcaption><div><strong>Mario Moya</strong><span>Capacitación para empresas · EPEN</span></div></figcaption>
+              <figcaption><div><strong>Mario</strong><span>Capacitación para empresas</span></div></figcaption>
             </figure>
             <figure class="testimonial-card">
               <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 3h7v8c0 7-2 10-7 10v-4c3 0 3-3 3-4H3Zm11 0h7v8c0 7-2 10-7 10v-4c3 0 3-3 3-4h-3Z" /></svg>
@@ -774,122 +749,31 @@
       <section class="gallery section" id="galeria">
         <div class="container">
           <div class="section-heading">
-            <h2>Las clases <span>En acción</span></h2>
+            <h2>Escenarios y <span>experiencias</span></h2>
           </div>
-          <div class="gallery-carousel" role="group" aria-roledescription="carrusel" aria-label="Clases y encuentros en acción">
+          <div class="gallery-carousel" role="group" aria-roledescription="carrusel" aria-label="Escenarios y experiencias">
             <div class="gallery-controls" hidden>
               <button type="button" class="gallery-prev" aria-controls="gallery-grid" aria-label="Ver fotos anteriores">←</button>
-              <span class="gallery-position" aria-live="polite">1 / 3</span>
+              <span class="gallery-position" aria-live="polite">1 / 2</span>
               <button type="button" class="gallery-next" aria-controls="gallery-grid" aria-label="Ver fotos siguientes">→</button>
             </div>
-            <div class="gallery-grid" id="gallery-grid" role="group" aria-label="Fotos de clases y encuentros" tabindex="0">
-              <div class="gallery-page" role="group" aria-roledescription="grupo de fotos" aria-label="1 de 3">
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM-1066w.avif 1066w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM-1066w.webp 1066w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM.jpeg" width="1066" height="1600" loading="lazy" decoding="async" alt="Cecilia hablando con un micrófono sobre el escenario" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM-1066w.webp 1066w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-1600w.avif 1600w" sizes="(max-width: 600px) 30vw, (max-width: 1000px) 16vw, 10rem" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-1600w.webp 1600w" sizes="(max-width: 600px) 30vw, (max-width: 1000px) 16vw, 10rem" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell.jpeg" width="1600" height="900" loading="lazy" decoding="async" alt="Cecilia con un grupo en la capacitación de La Colonia Shell" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas-%20La%20Colonia%20Shell-1600w.webp 1600w" sizes="(max-width: 600px) 30vw, (max-width: 1000px) 16vw, 10rem" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-1600w.avif 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-1600w.webp 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11.jpeg" width="1600" height="900" loading="lazy" decoding="async" alt="Grupo de participantes al finalizar una capacitación" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.11-1600w.webp 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-1600w.avif 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-1600w.webp 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59.jpeg" width="1600" height="900" loading="lazy" decoding="async" alt="Cecilia dando una clase frente a un grupo" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202025-12-10%20at%2019.38.59-1600w.webp 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio-1200w.avif 1200w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio-1200w.webp 1200w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio.jpeg" width="1200" height="1600" loading="lazy" decoding="async" alt="Cecilia junto a Diego Manfio en una mentoría individual" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Mentor%C3%ADa%20Individual%201-1%20-%20Diego%20Manfio-1200w.webp 1200w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-1600w.avif 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-1600w.webp 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM.jpeg" width="1600" height="1066" loading="lazy" decoding="async" alt="Cecilia con participantes en un encuentro de Conectando Vaca Muerta" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.52%20PM-1600w.webp 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/foto-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/foto-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/foto-856w.avif 856w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/foto-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/foto-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/foto-856w.webp 856w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/foto.png" width="856" height="855" loading="lazy" decoding="async" alt="Cecilia en una sesión de comunicación online" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/foto-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/foto-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/foto-856w.webp 856w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-              </div>
-              <div class="gallery-page" role="group" aria-roledescription="grupo de fotos" aria-label="2 de 3">
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-1600w.avif 1600w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-2624w.avif 2624w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-1600w.webp 1600w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-2624w.webp 2624w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg.jpeg" width="2624" height="3936" loading="lazy" decoding="async" alt="Cecilia Rodríguez en un encuentro de comunicación" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-1600w.webp 1600w, Images/IM%C3%81GENES-div%20class-gallery/DSC07391.jpg-2624w.webp 2624w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n-960w.avif 960w" sizes="(max-width: 600px) 30vw, (max-width: 1000px) 16vw, 10rem" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n-960w.webp 960w" sizes="(max-width: 600px) 30vw, (max-width: 1000px) 16vw, 10rem" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n.jpeg" width="960" height="1280" loading="lazy" decoding="async" alt="Encuentro de capacitación con el equipo de la Clínica Dra. Urcera en Neuquén" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Capacitacion%20para%20empresas.%20Dra%20Urcera.%20Neuqu%C3%A9n-960w.webp 960w" sizes="(max-width: 600px) 30vw, (max-width: 1000px) 16vw, 10rem" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-1600w.avif 1600w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-4240w.avif 4240w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-1600w.webp 1600w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-4240w.webp 4240w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy.jpg" width="4240" height="2832" loading="lazy" decoding="async" alt="Cecilia en una conversación con un grupo en un estudio" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-1600w.webp 1600w, Images/IM%C3%81GENES-div%20class-gallery/DSC09217%20copy-4240w.webp 4240w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-1600w.avif 1600w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-3072w.avif 3072w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-1600w.webp 1600w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-3072w.webp 3072w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR.jpg" width="3072" height="4096" loading="lazy" decoding="async" alt="Cecilia junto a un colega en un estudio de radio" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-1600w.webp 1600w, Images/IM%C3%81GENES-div%20class-gallery/IMG_20250514_090610013_HDR-3072w.webp 3072w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-1248w.avif 1248w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-1248w.webp 1248w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3.png" width="1248" height="832" loading="lazy" decoding="async" alt="Cecilia frente al micrófono en un estudio de podcast" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/Mujer_podcast_blusa_blanca_3-1248w.webp 1248w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-1204w.avif 1204w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-1204w.webp 1204w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202.jpeg" width="1204" height="1600" loading="lazy" decoding="async" alt="Sala del Polo Tecnológico de Neuquén antes de una capacitación" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn%202-1204w.webp 1204w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn-960w.avif 960w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn-960w.webp 960w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn.jpeg" width="960" height="1280" loading="lazy" decoding="async" alt="Presentación y materiales para una capacitación en el Polo Tecnológico de Neuquén" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Previo%20a%20dar%20clase%20en%20el%20Polo%20Tecnol%C3%B3gico%2C%20Nqn-960w.webp 960w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-              </div>
-              <div class="gallery-page" role="group" aria-roledescription="grupo de fotos" aria-label="3 de 3">
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04-1152w.avif 1152w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04-1152w.webp 1152w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04.jpeg" width="1152" height="1536" loading="lazy" decoding="async" alt="Retrato de Cecilia Rodríguez" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04-1152w.webp 1152w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02-848w.avif 848w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02-848w.webp 848w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02.jpeg" width="848" height="1264" loading="lazy" decoding="async" alt="Cecilia en un espacio de conversación" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-04-15%20at%2017.13.02-848w.webp 848w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2)-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2)-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2)-848w.avif 848w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2)-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2)-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2)-848w.webp 848w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2).jpeg" width="848" height="1264" loading="lazy" decoding="async" alt="Cecilia Rodríguez durante una jornada de trabajo" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2)-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2)-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202026-06-26%20at%2020.13.04%20(2)-848w.webp 848w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/DSC04204-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-1600w.avif 1600w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-2505w.avif 2505w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/DSC04204-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-1600w.webp 1600w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-2505w.webp 2505w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/DSC04204.jpg" width="2505" height="3758" loading="lazy" decoding="async" alt="Retrato de Cecilia Rodríguez en una entrevista" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/DSC04204-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-1600w.webp 1600w, Images/IM%C3%81GENES-div%20class-gallery/DSC04204-2505w.webp 2505w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/Conferencias-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/Conferencias-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/Conferencias-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/Conferencias-1204w.avif 1204w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/Conferencias-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Conferencias-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Conferencias-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/Conferencias-1204w.webp 1204w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/Conferencias.jpeg" width="1204" height="1600" loading="lazy" decoding="async" alt="Auditorio preparado para una conferencia" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/Conferencias-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/Conferencias-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/Conferencias-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/Conferencias-1204w.webp 1204w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-                <div class="gallery-item"><picture>
-          <source type="image/avif" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-480w.avif 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-800w.avif 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-1200w.avif 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-1600w.avif 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <source type="image/webp" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-1600w.webp 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-          <img src="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1).jpeg" width="1600" height="1066" loading="lazy" decoding="async" alt="Público en un evento de comunicación" data-responsive="true" srcset="Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-480w.webp 480w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-800w.webp 800w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-1200w.webp 1200w, Images/IM%C3%81GENES-div%20class-gallery/WhatsApp%20Image%202024-06-07%20at%202.29.53%20PM%20(1)-1600w.webp 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" />
-        </picture></div>
-              </div>
-            </div>
+<div class="gallery-grid" id="gallery-grid" role="group" aria-label="Fotos de escenarios y experiencias" tabindex="0"><div class="gallery-page" role="group" aria-roledescription="grupo de fotos" aria-label="1 de 2"><div class="gallery-item"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/galeria-1-480w.avif 480w, Images/actualizacion-2026-11/galeria-1-800w.avif 800w, Images/actualizacion-2026-11/galeria-1-1024w.avif 1024w" sizes="(max-width: 600px) 90vw, 48vw" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/galeria-1-480w.webp 480w, Images/actualizacion-2026-11/galeria-1-800w.webp 800w, Images/actualizacion-2026-11/galeria-1-1024w.webp 1024w" sizes="(max-width: 600px) 90vw, 48vw" />
+          <img src="Images/actualizacion-2026-11/galeria-1.png" width="1024" height="1536" alt="Cecilia hablando en un escenario" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/galeria-1-480w.webp 480w, Images/actualizacion-2026-11/galeria-1-800w.webp 800w, Images/actualizacion-2026-11/galeria-1-1024w.webp 1024w" sizes="(max-width: 600px) 90vw, 48vw" />
+        </picture></div><div class="gallery-item"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/galeria-2-480w.avif 480w, Images/actualizacion-2026-11/galeria-2-800w.avif 800w, Images/actualizacion-2026-11/galeria-2-1200w.avif 1200w, Images/actualizacion-2026-11/galeria-2-1600w.avif 1600w, Images/actualizacion-2026-11/galeria-2-1672w.avif 1672w" sizes="(max-width: 600px) 90vw, 48vw" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/galeria-2-480w.webp 480w, Images/actualizacion-2026-11/galeria-2-800w.webp 800w, Images/actualizacion-2026-11/galeria-2-1200w.webp 1200w, Images/actualizacion-2026-11/galeria-2-1600w.webp 1600w, Images/actualizacion-2026-11/galeria-2-1672w.webp 1672w" sizes="(max-width: 600px) 90vw, 48vw" />
+          <img src="Images/actualizacion-2026-11/galeria-2.png" width="1672" height="941" alt="Cecilia capacitando a un grupo en un aula" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/galeria-2-480w.webp 480w, Images/actualizacion-2026-11/galeria-2-800w.webp 800w, Images/actualizacion-2026-11/galeria-2-1200w.webp 1200w, Images/actualizacion-2026-11/galeria-2-1600w.webp 1600w, Images/actualizacion-2026-11/galeria-2-1672w.webp 1672w" sizes="(max-width: 600px) 90vw, 48vw" />
+        </picture></div></div><div class="gallery-page" role="group" aria-roledescription="grupo de fotos" aria-label="2 de 2"><div class="gallery-item"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/galeria-8-480w.avif 480w, Images/actualizacion-2026-11/galeria-8-800w.avif 800w, Images/actualizacion-2026-11/galeria-8-856w.avif 856w" sizes="(max-width: 600px) 90vw, 48vw" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/galeria-8-480w.webp 480w, Images/actualizacion-2026-11/galeria-8-800w.webp 800w, Images/actualizacion-2026-11/galeria-8-856w.webp 856w" sizes="(max-width: 600px) 90vw, 48vw" />
+          <img src="Images/actualizacion-2026-11/galeria-8.png" width="856" height="855" alt="Cecilia durante una sesión online" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/galeria-8-480w.webp 480w, Images/actualizacion-2026-11/galeria-8-800w.webp 800w, Images/actualizacion-2026-11/galeria-8-856w.webp 856w" sizes="(max-width: 600px) 90vw, 48vw" />
+        </picture></div><div class="gallery-item"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/galeria-14-480w.avif 480w, Images/actualizacion-2026-11/galeria-14-800w.avif 800w, Images/actualizacion-2026-11/galeria-14-1200w.avif 1200w, Images/actualizacion-2026-11/galeria-14-1600w.avif 1600w" sizes="(max-width: 600px) 90vw, 48vw" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/galeria-14-480w.webp 480w, Images/actualizacion-2026-11/galeria-14-800w.webp 800w, Images/actualizacion-2026-11/galeria-14-1200w.webp 1200w, Images/actualizacion-2026-11/galeria-14-1600w.webp 1600w" sizes="(max-width: 600px) 90vw, 48vw" />
+          <img src="Images/actualizacion-2026-11/galeria-14.jpeg" width="1600" height="1066" alt="Cecilia en un escenario frente al público" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/galeria-14-480w.webp 480w, Images/actualizacion-2026-11/galeria-14-800w.webp 800w, Images/actualizacion-2026-11/galeria-14-1200w.webp 1200w, Images/actualizacion-2026-11/galeria-14-1600w.webp 1600w" sizes="(max-width: 600px) 90vw, 48vw" />
+        </picture></div></div></div>
             <p class="gallery-hint">Deslizá hacia los lados para ver más fotos.</p>
           </div>
         </div>
@@ -919,9 +803,21 @@
             <div><p>Tres clases grabadas para entrenar a tu ritmo. Conocé el contenido y las opciones de compra en Hotmart.</p></div>
           </div>
           <div class="pocket-grid">
-            <article class="pocket-card"><span class="eyebrow">CLASE 01</span><h3>El miedo</h3><a class="button button-blue" href="https://hotmart.com/es/marketplace/productos/oratoria-pocket-clase-1-el-miedo/C99038531W" target="_blank" rel="noopener noreferrer">Ver clase 1 en Hotmart <span class="sr-only">(abre una nueva pestaña)</span></a></article>
-            <article class="pocket-card"><span class="eyebrow">CLASE 02</span><h3>El discurso</h3><a class="button button-blue" href="https://hotmart.com/es/marketplace/productos/oratoria-pocket-clase-2-el-discurso/N99039078A" target="_blank" rel="noopener noreferrer">Ver clase 2 en Hotmart <span class="sr-only">(abre una nueva pestaña)</span></a></article>
-            <article class="pocket-card"><span class="eyebrow">CLASE 03</span><h3>El lenguaje corporal</h3><a class="button button-blue" href="https://hotmart.com/es/marketplace/productos/oratoria-pocket-clase-3-el-lenguaje-corporal/F99040277A" target="_blank" rel="noopener noreferrer">Ver clase 3 en Hotmart <span class="sr-only">(abre una nueva pestaña)</span></a></article>
+            <article class="pocket-card"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/pocket-1-480w.avif 480w, Images/actualizacion-2026-11/pocket-1-800w.avif 800w, Images/actualizacion-2026-11/pocket-1-1200w.avif 1200w, Images/actualizacion-2026-11/pocket-1-1350w.avif 1350w" sizes="(max-width: 700px) 90vw, 30vw" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/pocket-1-480w.webp 480w, Images/actualizacion-2026-11/pocket-1-800w.webp 800w, Images/actualizacion-2026-11/pocket-1-1200w.webp 1200w, Images/actualizacion-2026-11/pocket-1-1350w.webp 1350w" sizes="(max-width: 700px) 90vw, 30vw" />
+          <img src="Images/actualizacion-2026-11/pocket-1.jpg" width="1350" height="1080" alt="" class="pocket-cover" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/pocket-1-480w.webp 480w, Images/actualizacion-2026-11/pocket-1-800w.webp 800w, Images/actualizacion-2026-11/pocket-1-1200w.webp 1200w, Images/actualizacion-2026-11/pocket-1-1350w.webp 1350w" sizes="(max-width: 700px) 90vw, 30vw" />
+        </picture><span class="eyebrow">CLASE 01</span><h3>El miedo</h3><a class="button button-blue" href="https://hotmart.com/es/marketplace/productos/oratoria-pocket-clase-1-el-miedo/C99038531W" target="_blank" rel="noopener noreferrer">Ver clase 1 en Hotmart <span class="sr-only">(abre una nueva pestaña)</span></a></article>
+            <article class="pocket-card"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/pocket-2-480w.avif 480w, Images/actualizacion-2026-11/pocket-2-800w.avif 800w, Images/actualizacion-2026-11/pocket-2-1200w.avif 1200w, Images/actualizacion-2026-11/pocket-2-1350w.avif 1350w" sizes="(max-width: 700px) 90vw, 30vw" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/pocket-2-480w.webp 480w, Images/actualizacion-2026-11/pocket-2-800w.webp 800w, Images/actualizacion-2026-11/pocket-2-1200w.webp 1200w, Images/actualizacion-2026-11/pocket-2-1350w.webp 1350w" sizes="(max-width: 700px) 90vw, 30vw" />
+          <img src="Images/actualizacion-2026-11/pocket-2.jpg" width="1350" height="1080" alt="" class="pocket-cover" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/pocket-2-480w.webp 480w, Images/actualizacion-2026-11/pocket-2-800w.webp 800w, Images/actualizacion-2026-11/pocket-2-1200w.webp 1200w, Images/actualizacion-2026-11/pocket-2-1350w.webp 1350w" sizes="(max-width: 700px) 90vw, 30vw" />
+        </picture><span class="eyebrow">CLASE 02</span><h3>El discurso</h3><a class="button button-blue" href="https://hotmart.com/es/marketplace/productos/oratoria-pocket-clase-2-el-discurso/N99039078A" target="_blank" rel="noopener noreferrer">Ver clase 2 en Hotmart <span class="sr-only">(abre una nueva pestaña)</span></a></article>
+            <article class="pocket-card"><picture>
+          <source type="image/avif" srcset="Images/actualizacion-2026-11/pocket-3-480w.avif 480w, Images/actualizacion-2026-11/pocket-3-800w.avif 800w, Images/actualizacion-2026-11/pocket-3-1200w.avif 1200w, Images/actualizacion-2026-11/pocket-3-1350w.avif 1350w" sizes="(max-width: 700px) 90vw, 30vw" />
+          <source type="image/webp" srcset="Images/actualizacion-2026-11/pocket-3-480w.webp 480w, Images/actualizacion-2026-11/pocket-3-800w.webp 800w, Images/actualizacion-2026-11/pocket-3-1200w.webp 1200w, Images/actualizacion-2026-11/pocket-3-1350w.webp 1350w" sizes="(max-width: 700px) 90vw, 30vw" />
+          <img src="Images/actualizacion-2026-11/pocket-3.jpg" width="1350" height="1080" alt="" class="pocket-cover" loading="lazy" decoding="async" data-responsive="true" srcset="Images/actualizacion-2026-11/pocket-3-480w.webp 480w, Images/actualizacion-2026-11/pocket-3-800w.webp 800w, Images/actualizacion-2026-11/pocket-3-1200w.webp 1200w, Images/actualizacion-2026-11/pocket-3-1350w.webp 1350w" sizes="(max-width: 700px) 90vw, 30vw" />
+        </picture><span class="eyebrow">CLASE 03</span><h3>El lenguaje corporal</h3><a class="button button-blue" href="https://hotmart.com/es/marketplace/productos/oratoria-pocket-clase-3-el-lenguaje-corporal/F99040277A" target="_blank" rel="noopener noreferrer">Ver clase 3 en Hotmart <span class="sr-only">(abre una nueva pestaña)</span></a></article>
           </div>
           <a class="pocket-all" href="https://ceciliarodriguez.hotmart.host/oratoria-pocket" target="_blank" rel="noopener noreferrer">Conocer todas las clases de Oratoria Pocket <span class="sr-only">(abre una nueva pestaña)</span></a>
         </div>
@@ -1097,7 +993,7 @@
                   </svg>
                   Instagram <span class="sr-only">(abre una nueva pestaña)</span>
                 </a>
-                <p>@ceciliarodriguezoratoria</p>
+                <p>@ceciliarodriguezoratoria</p><div class="additional-socials"><a href="https://www.facebook.com/profile.php?id=100063564669147" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (abre una nueva pestaña)</span></a><a href="https://www.linkedin.com/in/ceciliarodr%C3%ADguezoratoria/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (abre una nueva pestaña)</span></a><a href="https://www.tiktok.com/@ceciliarodriguezoratoria" target="_blank" rel="noopener noreferrer">TikTok<span class="sr-only"> (abre una nueva pestaña)</span></a></div>
               </div>
               <a
                 class="map"
