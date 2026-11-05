@@ -2,11 +2,14 @@
 .header .hero-image { aspect-ratio: 1; object-fit: contain; object-position: center; }
 .header .hero-copy h1 .hero-title-first { display: block; font: inherit; color: inherit; }
 .header .hero-copy h1 .hero-title-second { display: block; }
-.services-banner { max-inline-size: 90rem; margin-inline: auto; }
+.services-banner { inline-size: 100%; }
+.services-banner-spacer { block-size: 75px; background: #eef3f9; }
+@media (max-width: 600px) { .services-banner-spacer { block-size: 55px; } }
 .services-banner img { display: block; inline-size: 100%; block-size: auto; }
-.benefits { background: var(--blue); color: #fff; }
-.benefits :is(h3, p) { color: var(--blue); }
-.benefits .round-icon { background: var(--blue); color: #fff; }
+.benefits { background: #eef3f9; color: var(--blue); }
+.benefits .benefit-card { background: var(--blue); color: #eef3f9; }
+.benefits .benefit-card :is(h3, p) { color: #eef3f9; }
+.benefits .round-icon { background: #eef3f9; color: var(--blue); }
 .approach .round-icon { inline-size: 5rem; block-size: 5rem; padding: 0.85rem; background: #fff; border-radius: 1rem; }
 .approach .round-icon img { display: block; inline-size: 100%; block-size: 100%; object-fit: contain; }
 .pocket-card { gap: 0; }
@@ -42,30 +45,201 @@
 }
 @media (max-width: 600px) {
   /* Keep the supplied banner uncropped and offer readable text below it. */
-  .services-banner { background: #f5f5f5; }
+  .services-banner { background: #eef3f9; }
 }
 .banner-caption { position: absolute; inline-size: 1px; block-size: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 @media (max-width: 600px) {
   .banner-caption { position: static; inline-size: auto; block-size: auto; margin: 0; padding: 1.25rem; overflow: visible; clip-path: none; white-space: normal; font-size: 1rem; line-height: 1.6; color: var(--blue); }
   .banner-caption strong { display: block; margin-block-start: 0.5rem; }
 }
-/* Preserve complete photographs, including faces at the edge of the frame. */
-.gallery-page { grid-template-columns: repeat(3, minmax(0, 1fr)); aspect-ratio: 1.8; }
-.gallery .gallery-page .gallery-item:first-child,
-.gallery .gallery-page .gallery-item:last-child:nth-child(6) { grid-row: auto; grid-column: auto; }
-.gallery .gallery-item { background: #eef3f9; }
-.gallery .gallery-item img { object-fit: contain; object-position: center; }
-.gallery-page:last-child { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+/* Movimiento discreto de las fotografías al pasar el cursor. */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .gallery .gallery-item img {
+    transition: transform 280ms cubic-bezier(0.2, 0, 0, 1);
+  }
+  .gallery .gallery-item:hover img {
+    transform: scale(1.045);
+  }
+}
+
+/* Interacciones suaves para tarjetas e imágenes. */
+@media (prefers-reduced-motion: no-preference) {
+  .service-card, .benefit-card, .approach-card, .testimonial-card, .pocket-card {
+    transition: transform 280ms cubic-bezier(0.2, 0, 0, 1), box-shadow 280ms ease;
+  }
+  .header .hero-image, .about-photo img, .pocket-card .pocket-cover {
+    transition: transform 320ms cubic-bezier(0.2, 0, 0, 1);
+  }
+  .service-card:focus-within, .pocket-card:focus-within {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgb(15 51 99 / 16%);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .service-card:hover, .benefit-card:hover, .approach-card:hover,
+    .testimonial-card:hover, .pocket-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgb(15 51 99 / 16%);
+    }
+    .header .hero-image:hover { transform: scale(1.025); }
+    .about-photo:hover img, .pocket-card:hover .pocket-cover { transform: scale(1.035); }
+  }
+}
+
+/* Una composición más compacta para el enfoque. */
+.approach.section { padding-block: clamp(2.5rem, 4vw, 4rem); }
+.approach .three-grid { max-inline-size: 64rem; margin-inline: auto; gap: 1rem; }
+.approach .approach-card { padding: 1.5rem; min-height: 0; border-radius: 1rem; }
+.approach .round-icon { inline-size: 3.5rem; block-size: 3.5rem; padding: 0.65rem; }
+.approach .approach-card h3 { margin-block: 1rem 0.5rem; }
+
+/* Tarjetas más pequeñas, separadas dentro del ancho disponible. */
+.approach .three-grid {
+  max-inline-size: 78rem;
+  grid-template-columns: repeat(3, minmax(0, 19rem));
+  justify-content: space-between;
+  gap: clamp(2rem, 5vw, 5rem);
+}
+.approach .approach-card { padding: 1.25rem; }
+.approach .approach-card h3 { font-size: 1.25rem; }
+.approach .approach-card p { font-size: 1rem; line-height: 1.5; }
+.approach .section-heading p, .approach .approach-intro { font-size: 1rem; line-height: 1.6; }
+.approach .approach-intro { margin-block-end: 2.5rem; }
 @media (max-width: 800px) {
-  .gallery-page { grid-template-columns: repeat(2, minmax(0, 1fr)); aspect-ratio: auto; }
-  .gallery .gallery-page .gallery-item,
-  .gallery .gallery-page .gallery-item:first-child { aspect-ratio: 0.85; }
+  .approach .three-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 1.5rem; }
 }
-.gallery-page,
-.gallery-page:last-child { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: minmax(0, 1fr); aspect-ratio: 1.8; }
+
+/* Tarjetas horizontales con separación uniforme. */
+.approach.section { padding-block: clamp(2rem, 3vw, 3rem); }
+.approach .three-grid {
+  max-inline-size: 84rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: initial;
+  gap: clamp(1.5rem, 2.5vw, 2.5rem);
+}
+.approach .approach-card { padding: 1.15rem 1.5rem; }
+.approach .approach-card h3 { margin-block: 0.75rem 0.5rem; }
+.approach .approach-intro { margin-block-end: 2rem; }
+@media (max-width: 800px) {
+  .approach .three-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 1.5rem; }
+}
+
+/* La última vista contiene dos fotografías: ambas ocupan el mosaico completo. */
+.gallery .gallery-page:last-child:has(> .gallery-item:nth-child(2):last-child) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: minmax(0, 1fr);
+}
+.gallery .gallery-page:last-child:has(> .gallery-item:nth-child(2):last-child) .gallery-item:first-child {
+  grid-row: auto;
+  grid-column: auto;
+}
+@media (max-width: 800px) {
+  .gallery .gallery-page:last-child:has(> .gallery-item:nth-child(2):last-child) .gallery-item:first-child {
+    aspect-ratio: 0.85;
+  }
+}
+
+/* Crédito del estudio alineado con el contenido del pie. */
+@media (min-width: 801px) {
+  .footer .footer-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: center; }
+}
+.footer .footer-credit { display: flex; align-items: center; justify-content: center; gap: 0.75rem; color: #fff; }
+.footer .footer-credit span { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+.footer .footer-credit a { display: block; width: min(10rem, 52%); }
+.footer .footer-credit img { display: block; width: 100%; height: auto; }
+
+.footer .footer-grid > div { text-align: center; }
+@media (min-width: 801px) {
+  .footer > .container { width: min(100% - 3rem, 90rem); max-width: none; }
+  .footer .footer-grid { grid-template-columns: 1fr 1fr 1fr; }
+  .footer .footer-credit { justify-content: flex-end; }
+}
+@media (max-width: 800px) {
+  .footer .footer-grid { grid-template-columns: 1fr; }
+  .footer .footer-grid > div:first-child { grid-column: auto; }
+}
+
+/* En pantallas táctiles, el toque reemplaza el paso del cursor. */
+@media (hover: none) and (pointer: coarse) and (prefers-reduced-motion: no-preference) {
+  .gallery .gallery-item img { transition: transform 280ms cubic-bezier(0.2, 0, 0, 1); }
+  .gallery .gallery-item:active img { transform: scale(1.045); }
+  .service-card:active, .benefit-card:active, .approach-card:active,
+  .testimonial-card:active, .pocket-card:active {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgb(15 51 99 / 16%);
+  }
+  .header .hero-image:active { transform: scale(1.025); }
+  .about-photo:active img, .pocket-card:active .pocket-cover { transform: scale(1.035); }
+}
+
+@media (hover: none) and (pointer: coarse) and (prefers-reduced-motion: no-preference) {
+  .gallery .gallery-item.touch-in-view img { transform: scale(1.045); }
+  .service-card.touch-in-view, .benefit-card.touch-in-view, .approach-card.touch-in-view,
+  .testimonial-card.touch-in-view, .pocket-card.touch-in-view {
+    translate: 0 -4px;
+    box-shadow: 0 12px 28px rgb(15 51 99 / 16%);
+  }
+  .header .hero-image.touch-in-view { transform: scale(1.025); }
+  .about-photo.touch-in-view img, .pocket-card.touch-in-view .pocket-cover { transform: scale(1.035); }
+}
+
 @media (max-width: 600px) {
-  .gallery-page,
-  .gallery-page:last-child { grid-template-columns: 1fr; grid-template-rows: auto; aspect-ratio: auto; }
-  .gallery .gallery-page .gallery-item,
-  .gallery .gallery-page .gallery-item:first-child { aspect-ratio: 1; }
+  .services-banner-spacer { display: none; }
+  .benefits.section { padding-block-start: 1rem; }
 }
+
+@media (max-width: 600px) {
+  .footer .instagram-link { display: none; }
+}
+
+.whatsapp-float { position: fixed; inset-inline-start: max(1rem, env(safe-area-inset-left)); bottom: calc(1rem + env(safe-area-inset-bottom)); z-index: 90; display: inline-flex; align-items: center; gap: 0.65rem; min-height: 52px; padding: 0.8rem 1.15rem; border-radius: 999px; background: #25d366; color: #082f1a; font-weight: 700; text-decoration: none; box-shadow: 0 4px 18px #10101030; }
+.whatsapp-float svg { width: 24px; height: 24px; flex-shrink: 0; }
+.whatsapp-float:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .whatsapp-float { transition: transform 180ms ease; }
+  .whatsapp-float:hover { transform: translateY(-3px); }
+}
+
+@media (min-width: 801px) {
+  .footer .footer-grid > div:first-child { justify-self: stretch; }
+  .footer .footer-credit { justify-self: end; }
+}
+
+.whatsapp-float {
+  inset-inline-start: auto;
+  inset-inline-end: max(1rem, env(safe-area-inset-right));
+}
+
+@media (min-width: 801px) {
+  .footer .footer-credit {
+    margin-inline-end: max(0px, calc((min(100vw - 3rem, 90rem) - 2.5rem) / 6 - 5rem));
+    width: max-content;
+  }
+}
+
+/* Pie simétrico: tres columnas iguales y crédito compacto. */
+@media (min-width: 801px) {
+  .footer > .container { width: min(60rem, calc(100% - 2.25rem)); }
+  .footer .footer-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+  .footer .footer-credit { justify-self: stretch; justify-content: center; margin: 0; width: auto; gap: 0.5rem; }
+  .footer .footer-credit span { font-size: 0.65rem; }
+  .footer .footer-credit a { width: min(7rem, 45%); }
+}
+
+@media (max-width: 600px) {
+  .whatsapp-float { bottom: calc(2.5rem + env(safe-area-inset-bottom)); }
+}
+
+@media (min-width: 801px) {
+  .footer .footer-credit span { font-size: 0.7rem; }
+  .footer .footer-credit a { width: min(8rem, 48%); }
+}
+
+@media (max-width: 800px) {
+  .nav.nav-presentation.js-ready,
+  .nav.nav-presentation.js-ready.is-compact { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .nav-presentation.js-ready .brand.brand-logo,
+  .nav-presentation.js-ready .nav-toggle { justify-self: center; }
+}
+
+.gallery .gallery-item picture { display: block; width: 100%; height: 100%; }

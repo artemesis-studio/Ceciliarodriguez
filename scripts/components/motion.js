@@ -30,6 +30,26 @@ export function initMotion() {
     targets.forEach((target) => target.classList.add("is-visible"));
     return;
   }
+  // On touch screens, highlight items as they pass through the centre of the viewport.
+  const touch = matchMedia("(hover: none) and (pointer: coarse)");
+  if (touch.matches) {
+    const touchTargets = document.querySelectorAll(
+      ".service-card, .benefit-card, .approach-card, .testimonial-card, .pocket-card, .gallery-item, .about-photo, .hero-image",
+    );
+    const touchObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => entry.target.classList.toggle("touch-in-view", entry.isIntersecting));
+    }, { rootMargin: "-20% 0px -20% 0px", threshold: 0.1 });
+    touchTargets.forEach((target) => touchObserver.observe(target));
+    reduce.addEventListener?.("change", () => {
+      if (reduce.matches) {
+        touchObserver.disconnect();
+        touchTargets.forEach((target) => target.classList.remove("touch-in-view"));
+      } else {
+        touchTargets.forEach((target) => touchObserver.observe(target));
+      }
+    });
+  }
+
   observer = new IntersectionObserver((entries, instance) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;

@@ -96,6 +96,10 @@ def build():
         destination = OUTPUT / unicodedata.normalize("NFC", str(path.relative_to(ROOT)))
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(path, destination)
+    for name in ("robots.txt", "sitemap.xml"):
+        source = ROOT / name
+        if source.is_file():
+            shutil.copyfile(source, OUTPUT / name)
     # Common static-host format; verify support on the chosen hosting provider.
     (OUTPUT / "_headers").write_text("/*\n" + "".join(f"  {key}: {value}\n" for key, value in HEADERS.items()))
     print(json.dumps({"files": len(files), "bytes": sum(path.stat().st_size for path in files), "output": str(OUTPUT)}, indent=2))
