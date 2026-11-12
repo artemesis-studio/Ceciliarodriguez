@@ -125,6 +125,18 @@
 }
 
 /* La última vista contiene dos fotografías: ambas ocupan el mosaico completo. */
+.gallery .gallery-page--four {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  aspect-ratio: 1.5;
+}
+.gallery .gallery-page--four .gallery-item:first-child {
+  grid-row: auto;
+  grid-column: auto;
+}
+.gallery .gallery-item--people img {
+  object-position: center 70%;
+}
 .gallery .gallery-page:last-child:has(> .gallery-item:nth-child(2):last-child) {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-rows: minmax(0, 1fr);
@@ -134,6 +146,9 @@
   grid-column: auto;
 }
 @media (max-width: 800px) {
+  .gallery .gallery-page--four .gallery-item:first-child {
+    aspect-ratio: 0.85;
+  }
   .gallery .gallery-page:last-child:has(> .gallery-item:nth-child(2):last-child) .gallery-item:first-child {
     aspect-ratio: 0.85;
   }
